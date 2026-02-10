@@ -1,0 +1,287 @@
+body {
+  background: url('/assets/Image/Background\ 2\ -\ login\ e\ cadastro.jpg'); 
+  font-family: sans-serif; 
+  display: flex; 
+  justify-content: center;   
+  align-items: center;      
+  height: 100vh;        
+  color: var(--text-color);
+}
+
+
+.mensagem {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.mensagem.erro {
+  background: #dd08083f;
+  color: #9ba5a2ff;
+}
+
+.mensagem.sucesso {
+  background: #57ff093f;
+  color: #9ba5a2ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0;
+    font-weight: normal;
+}
+
+.container-login {
+    background-color: #1c1c1cf1;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;  
+    outline: none;
+    font-size: 14px;
+}
+
+input::placeholder {
+ color: var(--text-color);
+}
+#nome {
+  background-color: #b0bac37a;
+}
+#email{
+  background-color: #b0bac37a;
+}
+ #Senha {
+  background-color: #b0bac37a;
+ }
+
+#Button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 8px 18px;
+    background-color: var(--text-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#Button:hover {
+  background-color: var(--secundary-color);
+  border: 1px solid var(--text-color);
+  transition: 1s ease;
+  color: var(--text-color);
+}
+.login-option {
+    color: #7C838A;
+}
+.login-option a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Versão para Tablets */
+@media (min-width: 710px) and (max-width: 1133px) { 
+    
+body {
+    background-image: url('/assets/Image/Background\ 2\ \ -\ login\ e\ cadastro\ -\ tablet\ version.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+   h1 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0;
+    font-weight: normal;
+}
+
+.container-login {
+    background-color: #1c1c1cf1;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;  
+    outline: none;
+    font-size: 14px;
+}
+
+input::placeholder {
+ color: var(--text-color);
+}
+#nome {
+  background-color: #b0bac37a;
+}
+#email{
+  background-color: #b0bac37a;
+}
+ #Senha {
+  background-color: #b0bac37a;
+ }
+
+#Button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 8px 18px;
+    background-color: var(--text-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#Button:hover {
+  background-color: var(--secundary-color);
+  border: 1px solid var(--text-color);
+  transition: 1s ease;
+  color: var(--text-color);
+}
+.login-option {
+    color: #7C838A;
+}
+.login-option a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+}
+
+/* Responsividade mobile */
+@media (min-width: 370px) and (max-width: 710px) { 
+    
+body {
+    background-image: url('/assets/Image/Background\ 2\ -\ Login\ e\ Cadastro\ -\ mobile\ version.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 20px;  
+}
+
+.container-login {
+    background-color: #1c1c1cf1;
+    padding: 30px;
+    border-radius: 15px;
+    width: 269px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+label {
+    font-size: 14px; 
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;  
+    outline: none;
+    font-size: 14px;
+}
+
+.login-option {
+    color: #7C838A;
+    font-size: 12px;
+}
+.login-option a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+}
+
+
+
+/* parte de escolher foto */
+
+.titulo-escolha-uma-foto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center
+}
+
+.botao-foto {
+    background-color: var(--text-color);
+    cursor: pointer;
+    color: #000;
+    border-radius: 20px;
+    width: 210px;
+    height: 46px;
+    margin: 0 auto 20px;
+    font-size: 18px;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-foto:hover {
+    background-color: var(--secundary-color);
+    border: 1px solid var(--text-color);
+    transition: 1s ease;
+    color: var(--text-color);
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.preview-foto{ 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 100%; 
+    object-fit: cover;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+
