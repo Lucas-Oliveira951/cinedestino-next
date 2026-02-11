@@ -16,19 +16,61 @@
 
 /* Menu  responsivo para Tablets e celulares*/
 body {
-    /* background-image: url('../Image/background.jpg'); */
+    background-image: url('/assets/Image/background.jpg');
     background-repeat: no-repeat;
     background-color: var(--secundary-color);
     transition: background-color 0.5s ease;
 }
 
-header {
-    padding-inline: 16px;
+.header {
+    display: flex;
+    align-items: center;
+    padding-inline: 1%;
+    color: var(--text-color);
+    border-bottom: 1px solid rgba(225, 255, 255, 0.03);
+    height: var(--header-height);
 }
 
-.titulo-principal {
+.header-public {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1%;
+}
+
+.menu-home {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.titulo-principal-desktop {
+    display: flex;
+    margin: 20px 1%;
+}
+
+.btn-entrar {
+  background: #8b0000;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+}
+
+a.menu-item {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    list-style: none;
     color: var(--text-color);
-    margin: 20px 7%;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a.menu-item:hover {
+    color: var(--secundary-color);
+    background-color: var(--text-color);
+    padding: 20px;
+    transition: 1s ease;
 }
 
 nav.menu {
@@ -575,7 +617,7 @@ body.ativo {
 
     /* Menu versão Tablets*/
     body {
-        /* background-image: url('/assets/Image/Background - tablet version.jpg'); */
+        background-image: url('/assets/Image/Background - tablet version.jpg');
         background-size: 100%;
         background-position: center;
     }
@@ -873,7 +915,7 @@ body.ativo {
 /* Responsividade mobile */
 @media (min-width: 370px) and (max-width: 710px) {
     body {
-        /* background-image: url('/assets/Image/Background\ -\ mobile\ version.jpg'); */
+        background-image: url('/assets/Image/Background\ -\ mobile\ version.jpg');
         background-size: 100%;
     }
 
