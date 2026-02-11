@@ -1,66 +1,90 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
+import "./assets/css/style.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <header>
+        <nav className="menu">
+          <h1 className="titulo-principal">Cinedestino</h1>
+          <ul className="nav-list">
+            <li>
+              <Link href="/" className="item-list">
+                Página inicial
+              </Link>
+            </li>
+            <li>
+              <Link href="/catalogo" className="item-list">
+                Catálogo
+              </Link>
+            </li>
+            <li>
+              <Link href="/sobre" className="item-list">
+                Sobre
+              </Link>
+            </li>
+            <li>
+              <Link href="/login" className="botao-login">
+                Entrar
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div className="background"></div>
+
+      <main className="conteudo">
+        <div className="apresentacao">
+          <h1>Melhores Filmes Católicos para</h1>
+          <h3>Assistir com a sua família</h3>
+
+          <div className="barra-de-pesquisa">
+            <div className="barra-input">
+              <input type="search" placeholder="Pesquisar" />
+            </div>
+            <input type="button" value="Pesquisar" />
+          </div>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+
+        <section className="secao-filmes">
+          <h1 className="secao-title">Lançamento</h1>
+
+          <div className="filmes">
+
+            <div className="filme-card">
+              <div className="poster">
+                <Link href="/filmes/caminho-da-luz">
+                  <img
+                    src="/assets/Image/Caminho da Luz.jpg"
+                    alt="Caminho da Luz"
+                  />
+                </Link>
+              </div>
+              <div className="filme-descricao">
+                <h1 className="filme-title">Caminho da Luz</h1>
+                <span className="filme-ano">2025</span>
+              </div>
+            </div>
+
+            <div className="filme-card">
+              <div className="poster">
+                <Link href="/filmes/o-milagre-em-roma">
+                  <img
+                    src="/assets/Image/O Milagre em Roma.jpg"
+                    alt="O Milagre em Roma"
+                  />
+                </Link>
+              </div>
+              <div className="filme-descricao">
+                <h1 className="filme-title">O Milagre em Roma</h1>
+                <span className="filme-ano">2025</span>
+              </div>
+            </div>
+
+          </div>
+        </section>
       </main>
-    </div>
+    </>
   );
 }
