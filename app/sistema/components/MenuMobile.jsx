@@ -19,7 +19,7 @@ export default function MenuMobile({ variant = "private" }) {
     <>
       {/* BOTÃO DE MENU */}
       <button
-        className={`botao-menu-versao-php ${menuAtivo ? "ativo" : ""}`}
+        className={`botao-menu ${menuAtivo ? "ativo" : ""}`}
         onClick={toggleMenu}
       >
         <i className="fa-solid fa-bars"></i>

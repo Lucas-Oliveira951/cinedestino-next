@@ -82,7 +82,7 @@ export default function Header({
             {showSearch && (
               <div className="nav-center">
                 <form className="pesquisa-form">
-                  <input type="search" placeholder="Pesquisar" />
+                  <input type="search" id="Pesquisar" placeholder="Pesquisar" />
                   <button className="pesquisar-btn">
                     <i className="fa-solid fa-magnifying-glass"></i>
                   </button>

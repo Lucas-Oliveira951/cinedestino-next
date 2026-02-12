@@ -22,19 +22,14 @@ body {
   transition: background-color 0.5s ease;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  padding-inline: 1%;
-  color: var(--text-color);
-  border-bottom: 1px solid rgba(225, 255, 255, 0.03);
-  height: var(--header-height);
-}
-
 .header-public {
   display: flex;
+  align-items: center;
+  color: var(--text-color);
+  border-bottom: 1px solid rgba(225, 255, 255, 0.03);
   justify-content: space-between;
-  padding-inline: 1%;
+  padding-inline: 16px;
+  height: var(--header-height);
 }
 
 .menu-home {
@@ -45,7 +40,7 @@ body {
 
 .titulo-principal-desktop {
   display: flex;
-  margin: 20px 1%;
+  margin: 20px 7%;
 }
 
 .btn-entrar {
@@ -187,7 +182,7 @@ i.fa-solid.fa-right-from-bracket {
   transform: translateX(5px) rotate(5deg);
 }
 
-.botao-menu-versao-html {
+.botao-menu {
   display: none;
   background-color: var(--secundary-color);
   color: var(--text-color);
@@ -203,41 +198,14 @@ i.fa-solid.fa-right-from-bracket {
   transition: 0.5s ease;
 }
 
-.botao-menu-versao-html:hover {
+.botao-menu:hover {
   background-color: var(--text-color);
   color: var(--secundary-color);
   transition: 1s;
 }
 
-.botao-menu-versao-html.ativo {
-  right: 275px;
-  z-index: 55;
-}
-
-.botao-menu-versao-php {
-  display: none;
-  background-color: var(--secundary-color);
-  color: var(--text-color);
-  position: fixed;
-  right: 70px;
-  top: 16px;
-  z-index: 3;
-  border-radius: 5px;
-  font-size: 24px;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.botao-menu-versao-php:hover {
-  background-color: var(--text-color);
-  color: var(--secundary-color);
-  transition: 1s;
-}
-
-.botao-menu-versao-php.ativo {
-  right: 275px;
+.botao-menu.ativo {
+  right: 290px;
   z-index: 55;
 }
 
@@ -608,26 +576,24 @@ body.ativo {
 
 /* Versão para Tablets */
 @media (min-width: 710px) and (max-width: 1133px) {
-  /* Menu versão Tablets*/
   body {
     background-image: url("/assets/Image/Background - tablet version.jpg");
     background-size: 100%;
     background-position: center;
   }
+
   .nav-list {
     display: none;
   }
 
-  .botao-menu-versao-html {
+  .botao-menu {
     display: block;
     font-size: 28px;
-    right: 76px;
+    right: 40px;
   }
 
-  .botao-menu-versao-php {
-    display: block;
-    font-size: 28px;
-    right: 76px;
+  .botao-menu.ativo {
+    right: 320px;
   }
 
   .menu-lateral {
@@ -653,6 +619,11 @@ body.ativo {
 
   .barra-de-pesquisa {
     margin-top: 50%;
+  }
+
+  /* Menu versão mobile */
+  .menu-home {
+    display: none;
   }
 
   /* Catálogo Desktop - Parte 1 */
@@ -920,18 +891,9 @@ body.ativo {
     display: none;
   }
 
-  .botao-menu-versao-html {
+  .botao-menu {
     display: block;
     right: 40px;
-  }
-
-  .botao-menu-versao-php {
-    display: block;
-    right: 65px;
-  }
-
-  .botao-menu.ativo {
-    right: 290px;
   }
 
   .menu-lateral {
