@@ -10,7 +10,6 @@ export default function Header({
 
   return (
     <header className={`header header-${variant}`}>
-
       {/* LOGO */}
       <h1 className="titulo-principal-desktop">Cinedestino</h1>
 
@@ -60,7 +59,7 @@ export default function Header({
             <i className="fa-solid fa-circle-info"></i>Sobre
           </a>
 
-          <a href="/login" className="botao-login"> 
+          <a href="/login" className="botao-login">
             Entrar
           </a>
         </nav>
@@ -70,7 +69,6 @@ export default function Header({
       {variant === "filme" && (
         <>
           <nav className="menu-filme">
-
             <div className="nav-left">
               <a href="/sistema" className="menu-item">
                 <i className="fa-solid fa-house"></i>Página inicial
@@ -113,14 +111,13 @@ export default function Header({
                 </div>
               )}
             </div>
-
           </nav>
 
           {hasUser && <HeaderMobileFilme fotoPerfil={fotoPerfil} />}
         </>
       )}
 
-      <MenuMobile />
+      <MenuMobile variant={variant === "public" ? "public" : "private"} />
     </header>
   );
 }

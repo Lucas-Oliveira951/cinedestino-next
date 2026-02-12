@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function MenuMobile() {
+export default function MenuMobile({ variant = "private" }) {
   const [menuAtivo, setMenuAtivo] = useState(false);
 
   function toggleMenu() {
@@ -12,6 +12,8 @@ export default function MenuMobile() {
   function closeMenu() {
     setMenuAtivo(false);
   }
+
+  const isPublic = variant === "public";
 
   return (
     <>
@@ -27,25 +29,41 @@ export default function MenuMobile() {
       <nav className={`menu-lateral ${menuAtivo ? "ativo" : ""}`}>
         <ul>
           <li>
-            <a href="/sistema" onClick={closeMenu}>
-              <i className="fa-solid fa-house"></i>Página inicial
+            <a href={isPublic ? "/" : "/sistema"} onClick={closeMenu}>
+              <i className="fa-solid fa-house"></i>
+              {isPublic ? "Página inicial" : "Página inicial"}
             </a>
           </li>
+
           <li>
             <a href="/catalogo" onClick={closeMenu}>
               <i className="fa-solid fa-gears"></i>Catálogo
             </a>
           </li>
+
           <li>
             <a href="/sobre" onClick={closeMenu}>
               <i className="fa-solid fa-circle-info"></i>Sobre
             </a>
           </li>
-          <li>
-            <a href="/api/auth/logout">
-              <i className="fa-solid fa-right-from-bracket"></i>Sair
-            </a>
-          </li>
+
+          {/* Só aparece se estiver logado */}
+          {!isPublic && (
+            <li>
+              <a href="/api/auth/logout" onClick={closeMenu}>
+                <i className="fa-solid fa-right-from-bracket"></i>Sair
+              </a>
+            </li>
+          )}
+
+          {/* Só aparece na versão pública */}
+          {isPublic && (
+            <li>
+              <a href="/login" onClick={closeMenu}>
+                <i className="fa-solid fa-right-to-bracket"></i>Entrar
+              </a>
+            </li>
+          )}
         </ul>
       </nav>
 
