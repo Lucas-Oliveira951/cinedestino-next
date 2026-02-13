@@ -304,35 +304,7 @@ img.foto_de_perfil {
     transform: translateX(5px) rotate(5deg);
 }
 
-.botao-menu-versao-html {
-    display: none;
-    background-color: var(--secundary-color)!important;
-    color: var(--text-color);
-    position: fixed;
-    right: 47px;
-    z-index: 3;
-    border-radius: 5px;
-    font-size: 24px;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-
-.botao-menu-versao-html:hover {
-    background-color: var(--text-color);
-    color: var(--secundary-color);
-    transition: 1s;
-}
-
-.botao-menu-versao-html.ativo {
-    background-color: var(--secundary-color);
-    color: var(--text-color);
-    right: 311px;
-    z-index: 55;
-}
-
-.botao-menu-versao-php {
+.botao-menu {
     display: none;
     background-color: var(--secundary-color);
     color: var(--text-color);
@@ -347,13 +319,13 @@ img.foto_de_perfil {
     transition: 0.5s ease;
 }
 
-.botao-menu-versao-php:hover {
+.botao-menu:hover {
     background-color: var(--text-color);
     color: var(--secundary-color);
     transition: 1s;
 }
 
-.botao-menu-versao-php.ativo {
+.botao-menu.ativo {
     background-color: var(--secundary-color);
     color: var(--text-color);
     right: 311px;
@@ -662,7 +634,7 @@ textarea::placeholder {
         display: none;
     }
 
-    .botao-menu-versao-php {
+    .botao-menu {
         display: block;
         position: absolute;
         right: 135px;
@@ -823,7 +795,7 @@ textarea::placeholder {
         align-items: center;
     }
 
-    .botao-menu-versao-php {
+    .botao-menu {
         display: block;
         position: absolute;
         right: 107px;

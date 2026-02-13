@@ -34,7 +34,7 @@ export default function CaminhoDaLuz() {
             <a href="#" className="button-quiz">Ver Agora</a>
           </div>
         </div>
-
+        
       </div>
 
     </main>

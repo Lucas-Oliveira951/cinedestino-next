@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { filmes } from "@/app/data/filmes";
 // import "./assets/css/style.css";
 
 export default function Home() {
@@ -53,22 +54,24 @@ export default function Home() {
             {/* Primeira coluna de filmes em exibição */}
             {/* Filme 1  */}
             <article className="filmes">
-                <div className="filme-card">
+                 {filmes.map((filme) => (
+                <div className="filme-card" key={filme.slug}>
                     <div className="poster">
-                        <a href="/filmes/Caminho-da-Luz">
+                        <Link href={`/filme/${filme.slug}`}>
                             <img 
-                              src="../assets/Image/Caminho da Luz.jpg" 
-                              alt="Caminho da Luz"
+                              src={filme.imagem}
+                              alt={filme.titulo}
                               title="Caminho da Luz (Criador por Gemni IA e Chat GPT)"
                             />
-                        </a>
+                        </Link>
                     </div>
                     <div className="filme-descricao">
-                        <h1 className="filme-title">Caminho da Luz</h1>
+                        <h1 className="filme-title">{filme.titulo}</h1>
                         <span className="filme-ano">2025</span>
                     </div>
                 </div>
 
+))}
                 {/* Filme 2  */}
                 <div className="filme-card">
                     <div className="poster">
@@ -84,6 +87,7 @@ export default function Home() {
                         <span className="filmes-ano">2025</span>
                     </div>
                 </div>
+
 
                 {/* Filme 3 */}
                 <div className="filme-card">

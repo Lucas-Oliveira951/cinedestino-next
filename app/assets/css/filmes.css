@@ -21,11 +21,15 @@ body {
 }
 
 /* menu versao desktop */
-body {
+.filme-page {
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--secundary-color);
-  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -320,17 +324,6 @@ img.foto_de_perfil {
 .conteudo {
   transition: all 0.5s ease;
   min-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.filme-page {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: all 0.5s ease;
-  min-height: calc(100vh - var(--header-height));
   display: flex;
   align-items: center;
   justify-content: center;
