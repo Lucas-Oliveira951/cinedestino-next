@@ -2,7 +2,7 @@ export default function ACruzDoImperio() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/historico/A-Cruz-do-Imperio/A\ Cruz\ do\ Império\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/historico/A-Cruz-do-Imperio/A\ Cruz\ do\ Império\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

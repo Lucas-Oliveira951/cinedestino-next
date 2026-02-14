@@ -2,7 +2,7 @@ export default function EntreRosariosEEstrelas() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/entre-rosarios-e-estrelas/Entre\ Rosários\ E\ Estrelas\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/entre-rosarios-e-estrelas/Entre\ Rosários\ E\ Estrelas\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

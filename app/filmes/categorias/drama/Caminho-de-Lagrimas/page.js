@@ -2,7 +2,7 @@ export default function CaminhoDeLagrimas() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/drama/Caminho-de-Lagrimas/Caminho\ de\ Lágrimas\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/drama/Caminho-de-Lagrimas/Caminho\ de\ Lágrimas\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

@@ -2,7 +2,7 @@ export default function ALuzDoPerdao() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/inspiracao/A-Luz-do-Perdao/A\ Luz\ do\ Perdão\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/inspiracao/A-Luz-do-Perdao/A\ Luz\ do\ Perdão\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

@@ -2,7 +2,7 @@ export default function AUltimaCapela() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/a-ultima-capela/A\ Última\ Capela\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/a-ultima-capela/A\ Última\ Capela\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

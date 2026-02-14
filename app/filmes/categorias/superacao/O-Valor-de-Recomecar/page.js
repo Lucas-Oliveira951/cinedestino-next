@@ -2,7 +2,7 @@ export default function OValorDeRecomecar() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/superacao/O-Valor-de-Recomecar/O\ Valor\ de\ Recomeçar\  -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/superacao/O-Valor-de-Recomecar/O\ Valor\ de\ Recomeçar\  -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

@@ -2,7 +2,7 @@ export default function oSilencioDoMosteiro() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/o-silencio-do-mosteiro/O\ Silêncio\ do\ Mosteiro\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/o-silencio-do-mosteiro/O\ Silêncio\ do\ Mosteiro\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

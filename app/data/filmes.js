@@ -6,6 +6,6 @@ export const filmes = [
     imagem: "/assets/Image/Caminho da Luz.jpg",
     duracaoCategoria: "1h33 min | 🎭 Drama / Inspiração",
     nota: "8,5/10",
-    background: "/filmes/caminho-da-luz/Caminho\ da\ Luz\ -\ background\ \(Desktop\ \ Versão\).jpg"
+    background: "/filmes-background/caminho-da-luz/Caminho\ da\ Luz\ -\ background\ \(Desktop\ \ Versão\).jpg"
   },
 ];

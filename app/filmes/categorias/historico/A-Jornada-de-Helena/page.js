@@ -2,7 +2,7 @@ export default function AJornadaDeHelena() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/historico/A-Jornada-de-Helena/A\ Jornada\ de\ Helena\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/historico/A-Jornada-de-Helena/A\ Jornada\ de\ Helena\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

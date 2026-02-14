@@ -2,7 +2,7 @@ export default function CoracoesQueCuram() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/inspiracao/Coracoes-que-Curam/Corações\ que\ Curam\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/inspiracao/Coracoes-que-Curam/Corações\ que\ Curam\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

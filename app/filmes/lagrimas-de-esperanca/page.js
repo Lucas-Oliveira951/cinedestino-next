@@ -2,7 +2,7 @@ export default function LagrimasDeEsperanca() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/lagrimas-de-esperanca/Lágrimas\ de\ Esperança\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/lagrimas-de-esperanca/Lágrimas\ de\ Esperança\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

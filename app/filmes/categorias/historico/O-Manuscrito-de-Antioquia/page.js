@@ -2,7 +2,7 @@ export default function OManuscritoDeAntioquia() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/historico/O-Manuscrito-de-Antioquia/O\ Manuscrito\ de\ Antioquia\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/historico/O-Manuscrito-de-Antioquia/O\ Manuscrito\ de\ Antioquia\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

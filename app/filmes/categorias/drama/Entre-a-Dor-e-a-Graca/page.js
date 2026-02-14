@@ -2,7 +2,7 @@ export default function EntreADorEAGraca() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/drama/Entre-a-Dor-e-a-Graca/Entre\ a\ Dor\ e\ a\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/drama/Entre-a-Dor-e-a-Graca/Entre\ a\ Dor\ e\ a\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

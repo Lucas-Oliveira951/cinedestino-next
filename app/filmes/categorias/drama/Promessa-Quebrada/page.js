@@ -2,7 +2,7 @@ export default function PromessaQuebrada() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/drama/Promessa-Quebrada/Promessa\ Quebrada\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/drama/Promessa-Quebrada/Promessa\ Quebrada\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

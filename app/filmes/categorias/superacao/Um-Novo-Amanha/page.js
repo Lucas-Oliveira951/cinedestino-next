@@ -2,7 +2,7 @@ export default function UmNovoAmanha() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/superacao/Um-Novo-Amanha/Um\ Novo\ Amanhã\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/superacao/Um-Novo-Amanha/Um\ Novo\ Amanhã\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

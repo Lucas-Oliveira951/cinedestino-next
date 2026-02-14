@@ -2,7 +2,7 @@ export default function ChamasDaDeterminacao() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/superacao/Chamas-da-Determinacao/Chamas\ da\ Determinação\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/superacao/Chamas-da-Determinacao/Chamas\ da\ Determinação\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

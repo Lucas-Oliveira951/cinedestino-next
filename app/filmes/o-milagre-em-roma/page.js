@@ -2,7 +2,7 @@ export default function oMilagreEmRoma() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/o-milagre-em-roma/O\ Milagre\ em\ Roma\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/o-milagre-em-roma/O\ Milagre\ em\ Roma\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

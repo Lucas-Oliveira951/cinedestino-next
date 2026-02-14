@@ -2,7 +2,7 @@ export default function LuzEmMeuCaminho() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/inspiracao/luz-em-meu-caminho/Luz\ em\ Meu\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/inspiracao/luz-em-meu-caminho/Luz\ em\ Meu\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

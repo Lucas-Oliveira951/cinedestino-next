@@ -2,7 +2,7 @@ export default function OCantoDosAnjos() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/religioso/O-Canto-dos-Anjos/O\ Canto\ dos\ Anjos\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/religioso/O-Canto-dos-Anjos/O\ Canto\ dos\ Anjos\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

@@ -2,7 +2,7 @@ export default function SobOMantoDaVirgem() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/as-pegadas-de-pedro/As\ Pegadas\ de\ Pedro-\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/as-pegadas-de-pedro/As\ Pegadas\ de\ Pedro-\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

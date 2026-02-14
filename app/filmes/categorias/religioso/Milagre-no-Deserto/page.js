@@ -2,7 +2,7 @@ export default function MilagreNoDeserto() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/religioso/Milagre-no-Deserto/Milagre\ No\ Deserto\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/religioso/Milagre-no-Deserto/Milagre\ No\ Deserto\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

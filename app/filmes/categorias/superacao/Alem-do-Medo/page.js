@@ -2,7 +2,7 @@ export default function AlemDoMedo() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/superacao/Alem-do-Medo/Além\ do\ Medo\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/superacao/Alem-do-Medo/Além\ do\ Medo\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

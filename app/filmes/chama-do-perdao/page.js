@@ -2,7 +2,7 @@ export default function ChamaDoPerdao() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/chama-do-perdao/_Chama\ do\ Perdão\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/chama-do-perdao/_Chama\ do\ Perdão\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

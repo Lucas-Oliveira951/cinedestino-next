@@ -2,7 +2,7 @@ export default function OPesoDoSilencio() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/drama/O-Peso-do-Silencio/O\ Peso\ Do\ Silêncio\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/drama/O-Peso-do-Silencio/O\ Peso\ Do\ Silêncio\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

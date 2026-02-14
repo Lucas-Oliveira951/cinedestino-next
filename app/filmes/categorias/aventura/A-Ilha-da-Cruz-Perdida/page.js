@@ -2,7 +2,7 @@ export default function AIlhaDaCruzPerdida() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

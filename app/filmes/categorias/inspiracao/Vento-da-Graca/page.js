@@ -2,7 +2,7 @@ export default function VentoDaGraca() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/inspiracao/Vento-da-Graca/Vento\ da\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/inspiracao/Vento-da-Graca/Vento\ da\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

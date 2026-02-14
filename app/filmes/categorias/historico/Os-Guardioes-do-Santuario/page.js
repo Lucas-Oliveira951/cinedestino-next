@@ -2,7 +2,7 @@ export default function OsGuardioesDoSantuario() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/historico/Os-Guardioes-do-Santuario/Os\ Guardiões\ do\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/historico/Os-Guardioes-do-Santuario/Os\ Guardiões\ do\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

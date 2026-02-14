@@ -2,7 +2,7 @@ export default function OracaoDeFatima() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/religioso/Oracao-de-Fatima/Oração\ de\ Fátima\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/religioso/Oracao-de-Fatima/Oração\ de\ Fátima\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

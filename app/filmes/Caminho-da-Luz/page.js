@@ -2,7 +2,7 @@ export default function CaminhoDaLuz() {
   return (
     <main 
       className="filme-page"
-      style={{backgroundImage: "url('/filmes/caminho-da-luz/Caminho\ da\ Luz\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+      style={{backgroundImage: "url('/filmes-background/caminho-da-luz/Caminho\ da\ Luz\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

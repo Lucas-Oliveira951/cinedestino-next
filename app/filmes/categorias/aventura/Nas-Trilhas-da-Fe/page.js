@@ -2,7 +2,7 @@ export default function NasTrilhasDaFe() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes/aventura/Nas-Trilhas-da-Fe/Nas\ Trilhas\ da\ Fé\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/aventura/Nas-Trilhas-da-Fe/Nas\ Trilhas\ da\ Fé\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">
