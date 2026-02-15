@@ -1007,7 +1007,6 @@ body.ativo {
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 51px 15px;
-    height: 30%;
   }
 
   .filmes-mobile2 {
@@ -1050,6 +1049,7 @@ body.ativo {
     align-items: center;
     justify-content: center;
     padding: 40px;
+    margin: 0;
   }
 
   .filmes-mobile3 {

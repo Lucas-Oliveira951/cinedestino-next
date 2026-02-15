@@ -6,6 +6,7 @@ export const filmes = [
     imagem: "/assets/Image/Caminho da Luz.jpg",
     duracaoCategoria: "1h33 min | 🎭 Drama / Inspiração",
     nota: "8,5/10",
+    ano: "2025",
     background: "/filmes-background/caminho-da-luz/Caminho\ da\ Luz\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -16,6 +17,7 @@ export const filmes = [
     imagem: "/assets/Image/O Milagre em Roma.jpg",
     duracaoCategoria: "1h30 min | 🕊️ Histórico / Religioso",
     nota: "9,5/10",
+    ano: "2025",
     background: "/filmes-background/o-milagre-em-roma/O\ Milagre\ em\ Roma\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -26,6 +28,7 @@ export const filmes = [
     imagem: "/assets/Image/Chama do Perdão.jpg",
     duracaoCategoria: "1h10 min | 💔 Drama / Superação",
     nota: "9,0/10",
+    ano: "2025",
     background: "/filmes-background/chama-do-perdao/_Chama\ do\ Perdão\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -36,6 +39,7 @@ export const filmes = [
     imagem: "/assets/Image/O Peregrino de Assis.jpg",
     duracaoCategoria: "3h00 min | 🚶 Aventura / Espiritualidade",
     nota: "8,5/10",
+    ano: "2025",
     background: "/filmes-background/o-peregrino-de-assis/O\ Peregrino\ de\ Assis\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -46,6 +50,7 @@ export const filmes = [
     imagem: "/assets/Image/O Silêncio do Mosteiro.jpg",
     duracaoCategoria: "1h33 min | 🏰 Suspense / Reflexão",
     nota: "8,0/10",
+    ano: "2025",
     background: "/filmes-background/o-silencio-do-mosteiro/O\ Silêncio\ do\ Mosteiro\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -56,6 +61,7 @@ export const filmes = [
     imagem: "/assets/Image/Lágrimas de Esperança.jpg",
     duracaoCategoria: "2h33 min | 🌹 Drama / Fé",
     nota: "8,9/10",
+    ano: "2025",
     background: "/filmes-background/lagrimas-de-esperanca/Lágrimas\ de\ Esperança\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -66,6 +72,7 @@ export const filmes = [
     imagem: "/assets/Image/Sob o Manto da Virgem.jpg",
     duracaoCategoria: "1h20 min | 💫 Religioso / Milagre",
     nota: "9,0/10",
+    ano: "2025",
     background: "/filmes-background/sob-o-manto-da-virgem/Sob\ o\ Manto\ Da\ Virgem\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -76,6 +83,7 @@ export const filmes = [
     imagem: "/assets/Image/As Pegadas de Pedro.jpg",
     duracaoCategoria: "2h33 min | ⚓ Histórico / Espiritualidade",
     nota: "9,0/10",
+    ano: "2025",
     background: "/filmes-background/as-pegadas-de-pedro/As\ Pegadas\ de\ Pedro-\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -86,6 +94,7 @@ export const filmes = [
     imagem: "/assets/Image/A Última Capela.jpg",
     duracaoCategoria: "3h33 min | 🕯️ Drama / Esperança",
     nota: "8,2/10",
+    ano: "2025",
     background: "/filmes-background/a-ultima-capela/A\ Última\ Capela\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -96,6 +105,7 @@ export const filmes = [
     imagem: "/assets/Image/Entre Rosários e Estrelas.jpg",
     duracaoCategoria: "1h50 min | 🌠 Poético / Reflexivo",
     nota: "8,5/10",
+    ano: "2025",
     background: "/filmes-background/entre-rosarios-e-estrelas/Entre\ Rosários\ E\ Estrelas\ -\ background\ \(Desktop\ \ Versão\).jpg",
   }
 ];
