@@ -65,7 +65,7 @@ export default function Header({
         </nav>
       )}
 
-      {/* ===== FILME ===== */}
+      {/* ===== FILME (LOGADO) ===== */}
       {variant === "filme" && (
         <>
           <nav className="menu-filme">
@@ -117,7 +117,59 @@ export default function Header({
         </>
       )}
 
-      <MenuMobile variant={variant === "public" ? "public" : "private"} />
+      {/* ===== FILME PÚBLICO (SEM FOTO) ===== */}
+      {variant === "filme-public" && (
+        <>
+          <nav className="menu-filme">
+            <div className="nav-left">
+              <a href="/" className="menu-item">
+                <i className="fa-solid fa-house"></i>Página inicial
+              </a>
+
+              <a href="/catalogo" className="menu-item">
+                <i className="fa-solid fa-gears"></i>Catálogo
+              </a>
+            </div>
+
+            {showSearch && (
+              <div className="nav-center">
+                <form className="pesquisa-form">
+                  <input id="Pesquisar" type="search" placeholder="Pesquisar" />
+                  <button className="pesquisar-btn">
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+            )}
+
+            <div className="nav-right">
+              <div className="pesquisa-responsivo">
+                <button className="botao-mobile-pesquisar">
+                  <i className="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+
+              <a href="/sobre" className="menu-item">
+                <i className="fa-solid fa-circle-info"></i>Sobre
+              </a>
+
+              <a href="/login" className="botao-login">
+                Entrar
+              </a>
+            </div>
+          </nav>
+
+          <HeaderMobileFilme variant="public" />
+        </>
+      )}
+
+      <MenuMobile
+        variant={
+          variant === "public" || variant === "filme-public"
+            ? "public"
+            : "private"
+        }
+      />
     </header>
   );
 }

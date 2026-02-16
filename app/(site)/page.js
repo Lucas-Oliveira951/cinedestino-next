@@ -45,7 +45,7 @@ export default function Home() {
                     <img
                       src={filme.imagem}
                       alt={filme.titulo}
-                      title="Caminho da Luz (Criador por Gemni IA e Chat GPT)"
+                      title={`${filme.titulo} (Criador por Gemni IA e Chat GPT)`}
                     />
                   </Link>
                 </div>
@@ -87,7 +87,9 @@ export default function Home() {
       ${grupo.length === 1 ? "secao-filmes-mobile3" : ""}
     `}
   >
-    <h1 className="secao-title-mobile">Lançamento</h1>
+    {index === 0 && (
+      <h1 className="secao-title-mobile">Lançamento</h1>
+    )}
 
     <article
       className={
@@ -135,8 +137,6 @@ export default function Home() {
     </article>
   </section>
 ))}
-
-        
 
         {/* FOOTER Desktop versão */}
 
