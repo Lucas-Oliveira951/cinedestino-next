@@ -20,11 +20,11 @@ export default function Header({
             <i className="fa-solid fa-house"></i>Página inicial
           </a>
 
-          <a href="/catalogo" className="menu-item">
+          <a href="/sistema/catalogo" className="menu-item">
             <i className="fa-solid fa-gears"></i>Catálogo
           </a>
 
-          <a href="/sobre" className="menu-item">
+          <a href="/sistema/sobre" className="menu-item">
             <i className="fa-solid fa-circle-info"></i>Sobre
           </a>
 

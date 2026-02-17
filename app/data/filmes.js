@@ -1,4 +1,6 @@
 export const filmes = [
+
+  // Catálogo Principal
   {
     slug: "Caminho-da-Luz",
     titulo: "Caminho da Luz",
@@ -107,5 +109,33 @@ export const filmes = [
     nota: "8,5/10",
     ano: "2025",
     background: "/filmes-background/entre-rosarios-e-estrelas/Entre\ Rosários\ E\ Estrelas\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+// Filmes por Categoria
+
+// Inspiracao
+  {
+    slug: "luz-em-meu-caminho",
+    titulo: "Luz em Meu Caminho",
+    descricao: "Uma jovem missionária leva esperança a uma vila esquecida e descobre que, às vezes, a maior transformação vem de dentro.",
+    imagem: "/assets/Image/Luz em Meu Caminho.jpg",
+    categoria: "inspiracao",
+    duracaoCategoria: "3h50 min | 🌅 Drama / Inspiração",
+    nota: "8,6/10",
+    ano: "2025",
+    background: "/filmes-background/inspiracao/luz-em-meu-caminho/Luz\ em\ Meu\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+   {
+    slug: "vento-da-graca",
+    titulo: "Vento da Graça",
+    descricao: "Em uma cidade pequena, o vento misterioso que sopra após cada oração muda o destino de todos que acreditam.",
+    imagem: "/assets/Image/Vento da Graça.jpg",
+    categoria: "inspiracao",
+    duracaoCategoria: "3h30 min | 🍃 Inspiração / Espiritual",
+    nota: "8,9/10",
+    ano: "2025",
+    background: "/filmes-background/inspiracao/vento-da-graca/Vento\ da\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg",
   }
 ];
+

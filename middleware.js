@@ -1,5 +1,5 @@
-import { NextResponse } from 'next/server';
-import { cookies } from 'next/headers';
+import { NextResponse } from "next/server";
+import { cookies } from "next/headers";
 
 export function middleware(request) {
   const token = request.cookies.get("token_login")?.value;
@@ -14,9 +14,8 @@ export function middleware(request) {
 export const config = {
   matcher: [
     "/sistema/:path*",
-    "/filmes/:path*",
-    "/catalogo/:path*",
-    "/sobre/:path*",
+    "/sistema/filmes/:path*",
+    "/sistema/catalogo/:path*",
+    "/sistema/sobre/:path*",
   ],
 };
-
