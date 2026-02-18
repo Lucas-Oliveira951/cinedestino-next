@@ -387,12 +387,12 @@ export const filmes = [
     slug: "rumo-ao-santuario",
     titulo: "Rumo ao Santuário",
     descricao: "Um peregrino enfrenta desafios naturais enquanto segue rumo a um local sagrado.",
-    imagem: "/assets/Image/Rumo ao Santuário.jpg",
+    imagem: "/assets/Image/Rum ao Santuário.jpg",
     categoria: "aventura",
     duracaoCategoria: "1h20 min | 🛫 Drama / Aventura",
     nota: "8,2/10",
     ano: "2025",
-    background: "/filmes-background/Aventura/Rumo-ao-Santuário/Rumo\ ao\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/Aventura/Rumo-ao-Santuario/Rumo\ ao\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
