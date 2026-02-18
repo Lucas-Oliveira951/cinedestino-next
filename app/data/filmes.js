@@ -137,8 +137,8 @@ export const filmes = [
     ano: "2025",
     background: "/filmes-background/inspiracao/Vento-da-Graca/Vento\ da\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
- 
-    }
+  
+    {
     slug: "coracoes-que-curam",
     titulo: "Corações que Curam",
     descricao: "Após perder tudo, um médico reencontra o sentido da vida ao dedicar seu trabalho aos pobres e enfermos.",
@@ -150,3 +150,4 @@ export const filmes = [
     background: "/filmes-background/inspiracao/Coracoes-que-curam/Corações\ que\ Curam\ -\ background\ \(Desktop\ \ Versão\).jpg",
   }
 ];
+
