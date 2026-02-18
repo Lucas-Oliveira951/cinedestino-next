@@ -9,6 +9,7 @@ export const filmes = [
     duracaoCategoria: "1h33 min | 🎭 Drama / Inspiração",
     nota: "8,5/10",
     ano: "2025",
+    lancamento: "21 Outubro, 2025",
     background: "/filmes-background/caminho-da-luz/Caminho\ da\ Luz\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
@@ -20,6 +21,7 @@ export const filmes = [
     duracaoCategoria: "1h30 min | 🕊️ Histórico / Religioso",
     nota: "9,5/10",
     ano: "2025",
+    lancamento: "6 janeiro, 2024",
     background: "/filmes-background/o-milagre-em-roma/O\ Milagre\ em\ Roma\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
