@@ -167,7 +167,7 @@ export const filmes = [
     slug: "a-cruz-do-imperio",
     titulo: "A Cruz do Império",
     descricao: "Um soldado romano testemunha um acontecimento misterioso que transforma sua visão de fé.",
-    imagem: "/assets/Image/A Cruz do Império.jpg",
+    imagem: "/assets/Image/A Cruz do império.jpg",
     categoria: "historico",
     duracaoCategoria: "3h33 min | 🕯️ Histórico / Esperança",
     nota: "9,4/10",
