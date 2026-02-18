@@ -160,6 +160,55 @@ export const filmes = [
     nota: "9,2/10",
     ano: "2025",
     background: "/filmes-background/inspiracao/A-Luz-do-Perdao/A\ Luz\ do\ Perdão\ -\ background\ \(Desktop\ \ Versão\).jpg",
-  }
+  },
+
+  //Histórico
+    {
+    slug: "a-cruz-do-imperio",
+    titulo: "A Cruz do Império",
+    descricao: "Um soldado romano testemunha um acontecimento misterioso que transforma sua visão de fé.",
+    imagem: "/assets/Image/A Cruz do Império.jpg",
+    categoria: "historico",
+    duracaoCategoria: "3h33 min | 🕯️ Histórico / Esperança",
+    nota: "9,4/10",
+    ano: "2025",
+    background: "/filmes-background/historico/A-Cruz-do-Imperio/A\ Cruz\ do\ Império\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+    {
+    slug: "o-manuscrito-de-antioquia",
+    titulo: "O Manuscrito de Antioquia",
+    descricao: "Um escriba protege um texto sagrado que pode mudar a história da Igreja.",
+    imagem: "/assets/Image/O Manuscrito de Antioquia.jpg",
+    categoria: "historico",
+    duracaoCategoria: "3h40 min | ⚖️ Drama / Histórico",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/historico/O-Manuscrito-de-Antioquia/O\ Manuscrito\ de\ Antioquia\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "os-guardioes-do-santuario",
+    titulo: "Os Guardiões do Santuário",
+    descricao: "Um grupo de monges precisa proteger seu monastério durante tempos turbulentos.",
+    imagem: "/assets/Image/Os Guardiões do Santuário.jpg",
+    categoria: "historico",
+    duracaoCategoria: "3h33 min | ⚔️ Ação / Histórico",
+    nota: "8,9/10",
+    ano: "2025",
+    background: "/filmes-background/historico/Os-Guardioes-do-Santuario/Os\ Guardiões\ do\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "a-jornada-de-helena",
+    titulo: "A Jornada de Helena",
+    descricao: "Uma cristã da antiguidade se arrisca para levar mensagens de esperança a vilas perseguidas.",
+    imagem: "/assets/Image/A Jornada de Helena.jpg",
+    categoria: "historico",
+    duracaoCategoria: "3h33 min | ⛰️ Viagem / Histórico",
+    nota: "8,0/10",
+    ano: "2025",
+    background: "/filmes-background/historico/A-Jornada-de-Helena/A\ Jornada\ de\ Helena\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
 ];
 
