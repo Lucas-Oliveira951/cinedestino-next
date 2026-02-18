@@ -380,7 +380,7 @@ export const filmes = [
     duracaoCategoria: "1h23 min | 🗡️ Aventura/ Vitória",
     nota: "8,2/10",
     ano: "2025",
-    background: "/filmes-background/aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ Da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/Aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
