@@ -259,5 +259,152 @@ export const filmes = [
     ano: "2025",
     background: "/filmes-background/drama/Entre-a-Dor-e-a-Graca/Entre\ a\ Dor\ e\ a\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
+
+  //Superação
+  {
+    slug: "chamas-da-determinacao",
+    titulo: "Chamas da Determinação",
+    descricao: "Um atleta ferido busca forças na fé para voltar a competir.",
+    imagem: "/assets/Image/Chamas da Determinação.jpg",
+    categoria: "superacao",
+    duracaoCategoria: "2h30 min | 💪🏽 Esperança / Superação",
+    nota: "9,9/10",
+    ano: "2025",
+    background: "/filmes-background/superacao/Chamas-da-Determinacao/Chamas\ da\ Determinação\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "alem-do-medo",
+    titulo: "Além do Medo",
+    descricao: "Uma jovem tímida supera sua insegurança ao participar de um grupo da igreja.",
+    imagem: "/assets/Image/Além do Medo.jpg",
+    categoria: "superacao",
+    duracaoCategoria: "1h10 min | 🏆 Vitória / Superação",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/superacao/Alem-do-Medo/Além\ do\ Medo\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "um-novo-amanha",
+    titulo: "Um Novo Amanhã",
+    descricao: "Após um acidente, um músico aprende a tocar novamente e inspira outros.",
+    imagem: "/assets/Image/Um Novo amanhã.jpg",
+    categoria: "superacao",
+    duracaoCategoria: "2h10 min | 🕯️ Superação / Religioso",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/superacao/Um-Novo-Amanhã/Um\ Novo\ amanhã\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "o-valor-de-recomecar",
+    titulo: "O Valor de Recomeçar",
+    descricao: "Um ex-dependente encontra apoio espiritual para reconstruir sua vida.",
+    imagem: "/assets/Image/O Valor de Recomeçar.jpg",
+    categoria: "superacao",
+    duracaoCategoria: "13h00 min | ✊🏽 Superação/ Esperança",
+    nota: "9,5/10",
+    ano: "2025",
+    background: "/filmes-background/superacao/O-valor-de-Recomecar/O\ Valor\ De\ Recomeçar\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  //Religioso
+  {
+    slug: "no-coracao-da-oracao",
+    titulo: "No Coração da Oração",
+    descricao: "Uma comunidade descobre o poder da oração unida para transformar vidas.",
+    imagem: "/assets/Image/No Coração da Oração.jpg",
+    categoria: "religioso",
+    duracaoCategoria: "3h40 min | 📿Religioso / Esperança",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/religioso/No-Coracao-da-Oracao/No\ Coração\ Da\ Oração\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "milagre-no-deserto",
+    titulo: "Milagre no Deserto",
+    descricao: "Um viajante perdido encontra sinais divinos que o guiam de volta para casa.",
+    imagem: "/assets/Image/Milagre no Deserto.jpg",
+    categoria: "religioso",
+    duracaoCategoria: "3h35 min | ⛪ Drama / Religioso",
+    nota: "9,1/10",
+    ano: "2025",
+    background: "/filmes-background/religioso/Milagre-no-Deserto/Milagre\ No\ Deserto\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "oracao-de-fatima",
+    titulo: "Oração de Fátima",
+    descricao: "Uma menina tem sua fé fortalecida após presenciar um evento inexplicável.",
+    imagem: "/assets/Image/Oração de Fátima.jpg",
+    categoria: "religioso",
+    duracaoCategoria: "3h3 min | 🙏🏽 Religioso / Histórico",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/religioso/Oracao-de-Fátima/Oração\ De\ Fátima\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "o-canto-dos-anjos",
+    titulo: "O Canto dos Anjos",
+    descricao: "Um coral religioso testemunha um acontecimento que marca suas vidas.",
+    imagem: "/assets/Image/O Canto dos Anjos.jpg",
+    categoria: "religioso",
+    duracaoCategoria: "3h05 min | ✨ Religioso/ Esperança",
+    nota: "8,9/10",
+    ano: "2025",
+    background: "/filmes-background/religioso/O-Canto-dos-Anos/O\ Canto\ Dos\ Anjos\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  //Aventura
+  {
+    slug: "nas-trilhas-da-fe",
+    titulo: "Nas Trilhas da Fé",
+    descricao: "Três amigos viajam pelo interior do Brasil em uma missão espiritual.",
+    imagem: "/assets/Image/Nas Trilhas da Fé.jpg",
+    categoria: "aventura",
+    duracaoCategoria: "1h33 min | 🛣️ Aventura / Esperança",
+    nota: "8,0/10",
+    ano: "2025",
+    background: "/filmes-background/aventura/Nas-Trilhas-da-Fé/Nas\ Trilhas\ Da\ Fé\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "a-ilha-da-cruz-perdida",
+    titulo: "A Ilha da Cruz Perdida",
+    descricao: "Exploradores buscam uma relíquia cristã desaparecida há séculos.",
+    imagem: "/assets/Image/A ilha da Cruz Perdida.jpg",
+    categoria: "aventura",
+    duracaoCategoria: "1h23 min | 🗡️ Aventura/ Vitória",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ Da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "rumo-ao-santuario",
+    titulo: "Rumo ao Santuário",
+    descricao: "Um peregrino enfrenta desafios naturais enquanto segue rumo a um local sagrado.",
+    imagem: "/assets/Image/Rumo ao Santuário.jpg",
+    categoria: "aventura",
+    duracaoCategoria: "1h20 min | 🛫 Drama / Aventura",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/Aventura/Rumo-ao-Santuário/Rumo\ ao\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+  {
+    slug: "guardiao-do-caminho",
+    titulo: "Guardião do Caminho",
+    descricao: "Um jovem aventureiro precisa proteger um símbolo religioso de saqueadores.",
+    imagem: "/assets/Image/Guardião do Caminho.jpg",
+    categoria: "Aventura",
+    duracaoCategoria: "1h10 min | 🛡️ Aventura / Batalha",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/aventura/Guardiao-do-Caminho/Guardião\ do\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  }
 ];
 
