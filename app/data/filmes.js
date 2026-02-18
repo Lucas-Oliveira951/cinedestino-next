@@ -77,7 +77,7 @@ export const filmes = [
     duracaoCategoria: "1h20 min | 💫 Religioso / Milagre",
     nota: "9,0/10",
     ano: "2025",
-    background: "/filmes-background/sob-o-manto-da-virgem/Sob\ o\ Manto\ Da\ Virgem\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/sob-o-manto-da-virgem/Sob\ o\ Manto\ da\ Virgem\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
@@ -110,7 +110,7 @@ export const filmes = [
     duracaoCategoria: "1h50 min | 🌠 Poético / Reflexivo",
     nota: "8,5/10",
     ano: "2025",
-    background: "/filmes-background/entre-rosarios-e-estrelas/Entre\ Rosários\ E\ Estrelas\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/entre-rosarios-e-estrelas/Entre\ Rosários\ e\ Estrelas\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
 // Filmes por Categoria
