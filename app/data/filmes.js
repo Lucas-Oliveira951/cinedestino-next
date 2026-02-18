@@ -136,6 +136,18 @@ export const filmes = [
     nota: "8,9/10",
     ano: "2025",
     background: "/filmes-background/inspiracao/vento-da-graca/Vento\ da\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+  
+    {
+    slug: "coracoes-que-curam",
+    titulo: "Corações que Curam",
+    descricao: "Após perder tudo, um médico reencontra o sentido da vida ao dedicar seu trabalho aos pobres e enfermos.",
+    imagem: "/assets/Image/Corações que Curam.jpg",
+    categoria: "inspiracao",
+    duracaoCategoria: "2h33 min | 💖 Drama / Fé / Inspiração",
+    nota: "9,9/10",
+    ano: "2025",
+    background: "/filmes-background/inspiracao/coracoes-que-curam/Corações\ que\ Curam\ -\ background\ \(Desktop\ \ Versão\).jpg",
   }
 ];
 
