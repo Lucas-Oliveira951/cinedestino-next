@@ -210,5 +210,54 @@ export const filmes = [
     ano: "2025",
     background: "/filmes-background/historico/A-Jornada-de-Helena/A\ Jornada\ de\ Helena\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
+
+  //Drama
+    {
+    slug: "o-peso-do-silencio",
+    titulo: "O Peso do Silêncio",
+    descricao: "Uma mulher enfrenta o passado e busca reconciliação com a família.",
+    imagem: "/assets/Image/O Peso do Silêncio.jpg",
+    categoria: "drama",
+    duracaoCategoria: "3h33 min | 💔 Drama / Esperança",
+    nota: "9,8/10",
+    ano: "2025",
+    background: "/filmes-background/drama/O-Peso-do-Silencio/O\ Peso\ do\ Silêncio\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+    {
+    slug: "caminho-de-lagrimas",
+    titulo: "Caminho de Lágrimas",
+    descricao: "Após perder o emprego, um pai tenta manter a fé e sustentar seus filhos.",
+    imagem: "/assets/Image/Caminho de Lágrimas.jpg",
+    categoria: "drama",
+    duracaoCategoria: "3h10 min | 🏅 Drama / Vitória",
+    nota: "9,1/10",
+    ano: "2025",
+    background: "/filmes-background/drama/Caminho-de-Lagrimas/Caminho\ De\ Lágrimas\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+    {
+    slug: "promessa-quebrada",
+    titulo: "Promessa Quebrada",
+    descricao: "Um jovem promete mudar de vida, mas luta contra as próprias fraquezas.",
+    imagem: "/assets/Image/Promessa Quebrada.jpg",
+    categoria: "drama",
+    duracaoCategoria: "2h20 min | 🤝 Drama /Inspiração",
+    nota: "8,8/10",
+    ano: "2025",
+    background: "/filmes-background/drama/Promessa-Quebrada/Promessa\ Quebrada\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+
+    {
+    slug: "entre-a-dor-e-a-graca",
+    titulo: "Entre a Dor e a Graça",
+    descricao: "Uma médica cristã se vê dividida entre salvar vidas e enfrentar sua própria doença.",
+    imagem: "/assets/Image/Entre a Dor e a Graça.jpg",
+    categoria: "drama",
+    duracaoCategoria: "1h10 min | ✨ Drama / Lágrimas",
+    nota: "8,2/10",
+    ano: "2025",
+    background: "/filmes-background/drama/Entre-a-dor-e-a-Graca/Entre\ a\ Dor\ e\ a\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
 ];
 
