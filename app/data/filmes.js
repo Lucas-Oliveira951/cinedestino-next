@@ -265,7 +265,7 @@ export const filmes = [
     slug: "chamas-da-determinacao",
     titulo: "Chamas da Determinação",
     descricao: "Um atleta ferido busca forças na fé para voltar a competir.",
-    imagem: "/assets/Image/Chamas da Determinação.jpg",
+    imagem: "/assets/Image/Chamas de Determinação.jpg",
     categoria: "superacao",
     duracaoCategoria: "2h30 min | 💪🏽 Esperança / Superação",
     nota: "9,9/10",
@@ -294,7 +294,7 @@ export const filmes = [
     duracaoCategoria: "2h10 min | 🕯️ Superação / Religioso",
     nota: "8,2/10",
     ano: "2025",
-    background: "/filmes-background/superacao/Um-Novo-Amanhã/Um\ Novo\ amanhã\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/superacao/Um-Novo-Amanha/Um\ Novo\ Amanhã\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
@@ -306,7 +306,7 @@ export const filmes = [
     duracaoCategoria: "13h00 min | ✊🏽 Superação/ Esperança",
     nota: "9,5/10",
     ano: "2025",
-    background: "/filmes-background/superacao/O-valor-de-Recomecar/O\ Valor\ De\ Recomeçar\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/superacao/O-Valor-de-Recomecar/O\ Valor\ de\ Recomeçar\  -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   //Religioso
@@ -319,19 +319,19 @@ export const filmes = [
     duracaoCategoria: "3h40 min | 📿Religioso / Esperança",
     nota: "8,2/10",
     ano: "2025",
-    background: "/filmes-background/religioso/No-Coracao-da-Oracao/No\ Coração\ Da\ Oração\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/religioso/No-Coracao-da-Oracao/No\ Coração\ da\ Oração\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
     slug: "milagre-no-deserto",
     titulo: "Milagre no Deserto",
     descricao: "Um viajante perdido encontra sinais divinos que o guiam de volta para casa.",
-    imagem: "/assets/Image/Milagre no Deserto.jpg",
+    imagem: "/assets/Image/Milagre no Desert.jpg",
     categoria: "religioso",
     duracaoCategoria: "3h35 min | ⛪ Drama / Religioso",
     nota: "9,1/10",
     ano: "2025",
-    background: "/filmes-background/religioso/Milagre-no-Deserto/Milagre\ No\ Deserto\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/religioso/Milagre-no-Deserto/Milagre\ no\ Deserto\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
@@ -343,7 +343,7 @@ export const filmes = [
     duracaoCategoria: "3h3 min | 🙏🏽 Religioso / Histórico",
     nota: "8,2/10",
     ano: "2025",
-    background: "/filmes-background/religioso/Oracao-de-Fátima/Oração\ De\ Fátima\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/religioso/Oracao-de-Fatima/Oração\ de\ Fátima\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
@@ -355,7 +355,7 @@ export const filmes = [
     duracaoCategoria: "3h05 min | ✨ Religioso/ Esperança",
     nota: "8,9/10",
     ano: "2025",
-    background: "/filmes-background/religioso/O-Canto-dos-Anos/O\ Canto\ Dos\ Anjos\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/religioso/O-Canto-dos-Anjos/O\ Canto\ dos\ Anjos\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   //Aventura
@@ -368,7 +368,7 @@ export const filmes = [
     duracaoCategoria: "1h33 min | 🛣️ Aventura / Esperança",
     nota: "8,0/10",
     ano: "2025",
-    background: "/filmes-background/aventura/Nas-Trilhas-da-Fé/Nas\ Trilhas\ Da\ Fé\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/Aventura/Nas-Trilhas-da-Fe/Nas\ Trilhas\ da\ Fé\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
   {
@@ -400,7 +400,7 @@ export const filmes = [
     titulo: "Guardião do Caminho",
     descricao: "Um jovem aventureiro precisa proteger um símbolo religioso de saqueadores.",
     imagem: "/assets/Image/Guardião do Caminho.jpg",
-    categoria: "Aventura",
+    categoria: "aventura",
     duracaoCategoria: "1h10 min | 🛡️ Aventura / Batalha",
     nota: "8,2/10",
     ano: "2025",
