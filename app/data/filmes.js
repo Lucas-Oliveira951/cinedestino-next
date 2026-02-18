@@ -404,7 +404,7 @@ export const filmes = [
     duracaoCategoria: "1h10 min | 🛡️ Aventura / Batalha",
     nota: "8,2/10",
     ano: "2025",
-    background: "/filmes-background/aventura/Guardiao-do-Caminho/Guardião\ do\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/Aventura/Guardiao-do-Caminho/Guardião\ do\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg",
   }
 ];
 
