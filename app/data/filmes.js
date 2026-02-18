@@ -147,7 +147,6 @@ export const filmes = [
     duracaoCategoria: "2h33 min | 💖 Drama / Fé / Inspiração",
     nota: "9,9/10",
     ano: "2025",
-    background: "/filmes-background/inspiracao/"Coracoes-que-curam/Corações\ que\ Curam\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/inspiracao/Coracoes-que-curam/Corações\ que\ Curam\ -\ background\ \(Desktop\ \ Versão\).jpg",
   }
 ];
-
