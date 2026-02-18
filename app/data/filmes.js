@@ -233,7 +233,7 @@ export const filmes = [
     duracaoCategoria: "3h10 min | 🏅 Drama / Vitória",
     nota: "9,1/10",
     ano: "2025",
-    background: "/filmes-background/drama/Caminho-de-Lagrimas/Caminho\ De\ Lágrimas\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/drama/Caminho-de-Lagrimas/Caminho\ de\ Lágrimas\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 
     {
@@ -257,7 +257,7 @@ export const filmes = [
     duracaoCategoria: "1h10 min | ✨ Drama / Lágrimas",
     nota: "8,2/10",
     ano: "2025",
-    background: "/filmes-background/drama/Entre-a-dor-e-a-Graca/Entre\ a\ Dor\ e\ a\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg",
+    background: "/filmes-background/drama/Entre-a-Dor-e-a-Graca/Entre\ a\ Dor\ e\ a\ Graça\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },
 ];
 
