@@ -148,6 +148,18 @@ export const filmes = [
     nota: "9,9/10",
     ano: "2025",
     background: "/filmes-background/inspiracao/Coracoes-que-curam/Corações\ que\ Curam\ -\ background\ \(Desktop\ \ Versão\).jpg",
+  },
+  
+    {
+    slug: "a-luz-do-perdao",
+    titulo: "A Luz do Perdão",
+    descricao: "Uma mulher marcada por erros do passado encontra em um simples ato de perdão a força para recomeçar e inspirar outros.",
+    imagem: "/assets/Image/A Luz do Perdão.jpg",
+    categoria: "inspiracao",
+    duracaoCategoria: "1h50 min | ✨ Drama / Espiritualidade / Inspiração",
+    nota: "9,2/10",
+    ano: "2025",
+    background: "/filmes-background/inspiracao/A-Luz-do-Perdao/A\ Luz\ do\ Perdão\ -\ background\ \(Desktop\ \ Versão\).jpg",
   }
 ];
 
