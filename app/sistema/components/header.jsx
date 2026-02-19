@@ -97,7 +97,7 @@ export default function Header({
                 </button>
               </div>
 
-              <a href="sistema/sobre" className="menu-item">
+              <a href="/sobre" className="menu-item">
                 <i className="fa-solid fa-circle-info"></i>Sobre
               </a>
 
