@@ -37,7 +37,7 @@ const CATEGORIAS = {
     filmes: [
       {
         titulo: "A Cruz do Império",
-        img: "/catalogo/A Cruz do Império.png",
+        img: "/catalogo/A Cruz do império.png",
         link: "/sistema/filmes/categorias/historico/A-Cruz-do-Imperio",
       },
       {
