@@ -1,4 +1,4 @@
-import "../assets/css/login.css"
+import "./login.css"
 
 export default function LoginLayout({ children }) {
   return <>
