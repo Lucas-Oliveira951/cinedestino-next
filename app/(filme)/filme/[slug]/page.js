@@ -7,8 +7,23 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function FilmePage({ params }) {
-  const { slug } = await params;
+// ✅ Adiciona o title dinamicamente
+export function generateMetadata({ params }) {
+  const filme = filmes.find((f) => f.slug === params.slug);
+
+  if (!filme) {
+    return {
+      title: "Filme não encontrado",
+    };
+  }
+
+  return {
+    title: filme.titulo,
+  };
+}
+
+export default function FilmePage({ params }) {
+  const { slug } = params;
 
   const filme = filmes.find((f) => f.slug === slug);
 
