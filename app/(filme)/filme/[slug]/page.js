@@ -1,18 +1,14 @@
 import { filmes } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
-// ❌ NÃO precisa async aqui
 export function generateStaticParams() {
   return filmes.map((filme) => ({
     slug: filme.slug,
   }));
 }
 
-// Metadata seguro
-export async function generateMetadata({ params }) {
-  const { slug } = await params;
-
-  const filme = filmes.find((f) => f.slug === slug);
+export function generateMetadata({ params }) {
+  const filme = filmes.find((f) => f.slug === params.slug);
 
   if (!filme) {
     return {
@@ -27,20 +23,14 @@ export async function generateMetadata({ params }) {
 }
 
 export default function FilmePage({ params }) {
-  const { slug } = await params;
-  const filme = filmes.find((f) => f.slug === slug);
+  const filme = filmes.find((f) => f.slug === params.slug);
 
   if (!filme) {
     notFound();
   }
 
   return (
-    <main
-      className="background-filme"
-      // style={{
-      //   //backgroundImage: `url(${filme.background})`,
-      // }}
-    >
+    <main className="background-filme">
       <div className="container-poster">
         <div className="poster">
           <img src={filme.imagem} alt={filme.titulo} />
