@@ -2,7 +2,7 @@ export default function NoCoracaoDaOracao() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes-background/religioso/No-Coracao-da-Oracao/No\ Coração\ Da\ Oração\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/religioso/No-Coracao-da-Oracao/No\ Coração\ da\ Oração\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">
