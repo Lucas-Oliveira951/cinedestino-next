@@ -1,34 +1,31 @@
 import { filmes } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
-// Gera as rotas estáticas para o build (Vercel precisa disso)
-export async function generateStaticParams() {
+// ❌ NÃO precisa async aqui
+export function generateStaticParams() {
   return filmes.map((filme) => ({
     slug: filme.slug,
   }));
 }
 
-// Gera o <title> dinâmico
-export async function generateMetadata({ params }) {
-  try {
-    const slug = params?.slug;
-    const filme = filmes.find((f) => f.slug === slug);
+// Metadata seguro
+export function generateMetadata({ params }) {
+  const filme = filmes.find((f) => f.slug === params.slug);
 
+  if (!filme) {
     return {
-      title: filme?.titulo || "Filme",
-      description: filme?.descricao || "",
-    };
-  } catch {
-    return {
-      title: "Filme",
+      title: "Filme não encontrado",
     };
   }
+
+  return {
+    title: filme.titulo,
+    description: filme.descricao,
+  };
 }
 
 export default function FilmePage({ params }) {
-  const { slug } = params;
-
-const filme = filmes.find((f) => f.slug === params.slug);
+  const filme = filmes.find((f) => f.slug === params.slug);
 
   if (!filme) {
     notFound();
@@ -38,7 +35,7 @@ const filme = filmes.find((f) => f.slug === params.slug);
     <main
       className="background-filme"
       style={{
-        backgroundImage: `url("${filme.background}")`,
+        backgroundImage: `url(${filme.background})`,
       }}
     >
       <div className="container-poster">
