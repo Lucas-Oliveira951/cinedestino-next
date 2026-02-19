@@ -33,8 +33,27 @@ export default function FilmePage({ params }) {
   }
 
   return (
-    <main>
-      <h1>{filme.titulo}</h1>
+    <main className="background-filme">
+      <div className="container-poster">
+        <div className="poster">
+          <img src={filme.imagem} alt={filme.titulo} />
+        </div>
+
+        <div className="info-filme">
+          <h1 className="titulo-filme">{filme.titulo}</h1>
+          <span>{filme.duracaoCategoria}</span>
+          <p className="sinopse">{filme.descricao}</p>
+
+          <div className="buttons">
+            <a href="#" className="button-trailer">
+              Ver Trailer
+            </a>
+            <a href="#" className="button-quiz">
+              Ver Agora
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
