@@ -1,6 +1,6 @@
 "use client";
 
-import "../assets/css/cadastro.css";
+// import "../assets/css/cadastro.css";
 import { useState } from "react";
 
 export default function Cadastro() {

@@ -1,3 +1,5 @@
+import "./cadastro.css"
+
 export const metadata = {
   title: "Criar Conta",
 };
