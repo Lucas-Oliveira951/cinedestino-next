@@ -1,6 +1,14 @@
 import { filmes } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
+export async function 
+  generateMetadata({ params }) {
+    const slug = params.slug;
+    return{
+      title: `${slug.replace(/-/g, "")}`,
+    };
+  }
+
 export function generateStaticParams() {
   return filmes.map((filme) => ({
     slug: filme.slug,
