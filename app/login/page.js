@@ -1,6 +1,5 @@
 "use client";
 
-import "../assets/css/cadastro.css";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -56,7 +55,6 @@ export default function Login() {
       setTimeout(() => {
         router.push("/sistema");
       }, 2000);
-
     } catch {
       setTipo("erro");
       setMensagem("Erro interno do servidor");
@@ -66,9 +64,8 @@ export default function Login() {
   return (
     <main className="conteudo">
       <div className="container-login">
-
         <form onSubmit={handleLogin}>
-          <h1>Entrar</h1>
+          <h1 className="titulo-entrar">Entrar</h1>
 
           <label>Email</label>
           <input
@@ -107,7 +104,6 @@ export default function Login() {
             Não tem conta? <a href="/cadastro">Criar conta</a>
           </p>
         </form>
-
       </div>
     </main>
   );
