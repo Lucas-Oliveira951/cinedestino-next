@@ -10,22 +10,22 @@ const CATEGORIAS = {
       {
         titulo: "Luz em Meu Caminho",
         img: "/catalogo/Luz em Meu Caminho.png",
-        link: "/filmes/categorias/inspiracao/Luz-em-Meu-Caminho",
+        link: "/sistema/filmes/categorias/inspiracao/Luz-em-Meu-Caminho",
       },
       {
         titulo: "Vento da Graça",
         img: "/catalogo/Vento da Graça.png",
-        link: "/filmes/categorias/inspiracao/Vento-da-Graca",
+        link: "/sistema/filmes/categorias/inspiracao/Vento-da-Graca",
       },
       {
         titulo: "Corações que Curam",
         img: "/catalogo/Corações que Curam.png",
-        link: "/filmes/categorias/inspiracao/Coracoes-que-Curam",
+        link: "/sistema/filmes/categorias/inspiracao/Coracoes-que-Curam",
       },
       {
         titulo: "A Luz do Perdão",
         img: "/catalogo/A Luz do Perdão.png",
-        link: "/filmes/categorias/inspiracao/A-Luz-do-Perdao",
+        link: "/sistema/filmes/categorias/inspiracao/A-Luz-do-Perdao",
       },
     ],
   },
@@ -38,22 +38,22 @@ const CATEGORIAS = {
       {
         titulo: "A Cruz do Império",
         img: "/catalogo/A Cruz do Império.png",
-        link: "/filmes/categorias/historico/A-Cruz-do-Imperio",
+        link: "/sistema/filmes/categorias/historico/A-Cruz-do-Imperio",
       },
       {
         titulo: "O Manuscrito de Antioquia",
         img: "/catalogo/O Manuscrito de Antioquia.png",
-        link: "/filmes/categorias/historico/O-Manuscrito-de-Antioquia",
+        link: "/sistema/filmes/categorias/historico/O-Manuscrito-de-Antioquia",
       },
       {
         titulo: "Os Guardiões do Santuário",
         img: "/catalogo/Os Guardiões do Santuário.png",
-        link: "/filmes/categorias/historico/Os-Guardioes-do-Santuario",
+        link: "/sistema/filmes/categorias/historico/Os-Guardioes-do-Santuario",
       },
       {
         titulo: "A Jornada de Helena",
         img: "/catalogo/A Jornada de Helena.png",
-        link: "/filmes/categorias/historico/A-Jornada-de-Helena",
+        link: "/sistema/filmes/categorias/historico/A-Jornada-de-Helena",
       },
     ],
   },
@@ -66,22 +66,22 @@ const CATEGORIAS = {
       {
         titulo: "O Peso do Silêncio",
         img: "/catalogo/O Peso do Silêncio.png",
-        link: "/filmes/categorias/drama/O-Peso-do-Silencio",
+        link: "/sistema/filmes/categorias/drama/O-Peso-do-Silencio",
       },
       {
         titulo: "Caminho de Lágrimas",
         img: "/catalogo/Caminho de Lágrimas.png",
-        link: "/filmes/categorias/drama/Caminho-de-Lagrimas",
+        link: "/sistema/filmes/categorias/drama/Caminho-de-Lagrimas",
       },
       {
         titulo: "Promessa Quebrada",
         img: "/catalogo/Promessa Quebrada.png",
-        link: "/filmes/categorias/drama/Promessa-Quebrada",
+        link: "/sistema/filmes/categorias/drama/Promessa-Quebrada",
       },
       {
         titulo: "Entre a Dor e a Graça",
         img: "/catalogo/Entre a Dor e a Graça.png",
-        link: "/filmes/categorias/drama/Entre-a-Dor-e-a-Graca",
+        link: "/sistema/filmes/categorias/drama/Entre-a-Dor-e-a-Graca",
       },
     ],
   },
@@ -95,22 +95,22 @@ const CATEGORIAS = {
       {
         titulo: "Chamas da Determinação",
         img: "/catalogo/Chamas de Determinação.png",
-        link: "/filmes/categorias/superacao/Chamas-da-Determinacao",
+        link: "/sistema/filmes/categorias/superacao/Chamas-da-Determinacao",
       },
       {
         titulo: "Além do Medo",
         img: "/catalogo/Além do Medo.png",
-        link: "/filmes/categorias/superacao/Alem-do-Medo",
+        link: "/sistema/filmes/categorias/superacao/Alem-do-Medo",
       },
       {
         titulo: "Um Novo Amanhã",
         img: "/catalogo/Um Novo amanhã.png",
-        link: "/filmes/categorias/superacao/Um-Novo-Amanha",
+        link: "/sistema/filmes/categorias/superacao/Um-Novo-Amanha",
       },
       {
         titulo: "O Valor de Recomeçar",
         img: "/catalogo/O Valor de Recomeçar.png",
-        link: "/filmes/categorias/superacao/O-Valor-de-Recomecar",
+        link: "/sistema/filmes/categorias/superacao/O-Valor-de-Recomecar",
       },
     ],
   },
@@ -124,22 +124,22 @@ const CATEGORIAS = {
       {
         titulo: "No Coração da Oração",
         img: "/catalogo/No Coração da Oração.png",
-        link: "/filmes/categorias/religioso/No-Coracao-da-Oracao",
+        link: "/sistema/filmes/categorias/religioso/No-Coracao-da-Oracao",
       },
       {
         titulo: "Milagre no Deserto",
         img: "/catalogo/Milagre no Deserto.png",
-        link: "/filmes/categorias/religioso/Milagre-no-Deserto",
+        link: "/sistema/filmes/categorias/religioso/Milagre-no-Deserto",
       },
       {
         titulo: "Oração de Fátima",
         img: "/catalogo/Oração de Fátima.png",
-        link: "/filmes/categorias/religioso/Oracao-de-Fatima",
+        link: "/sistema/filmes/categorias/religioso/Oracao-de-Fatima",
       },
       {
         titulo: "O Canto dos Anjos",
         img: "/catalogo/O Canto dos Anjos.png",
-        link: "/filmes/categorias/religioso/O-Canto-dos-Anjos",
+        link: "/sistema/filmes/categorias/religioso/O-Canto-dos-Anjos",
       },
     ],
   },
@@ -152,22 +152,22 @@ const CATEGORIAS = {
       {
         titulo: "Nas Trilhas da Fé",
         img: "/catalogo/Nas Trilhas da Fé.png",
-        link: "/filmes/categorias/aventura/Nas-Trilhas-da-Fe",
+        link: "/sistema/filmes/categorias/aventura/Nas-Trilhas-da-Fe",
       },
       {
         titulo: "A Ilha da Cruz Perdida",
         img: "/catalogo/A Ilha da Cruz Perdida.png",
-        link: "/filmes/categorias/aventura/A-Ilha-da-Cruz-Perdida",
+        link: "/sistema/filmes/categorias/aventura/A-Ilha-da-Cruz-Perdida",
       },
       {
         titulo: "Rumo ao Santuário",
         img: "/catalogo/Rum ao Santuário.png",
-        link: "/filmes/categorias/aventura/Rumo-ao-Santuario",
+        link: "/sistema/filmes/categorias/aventura/Rumo-ao-Santuario",
       },
       {
         titulo: "Guardião do Caminho",
         img: "/catalogo/Guardião do Caminho.png",
-        link: "/filmes/categorias/aventura/Guardiao-do-Caminho",
+        link: "/sistema/filmes/categorias/aventura/Guardiao-do-Caminho",
       },
     ],
   },
@@ -191,7 +191,7 @@ export default function CatalogoPage() {
             </p>
 
             <div className="card-acoes">
-              <a href="/filmes/Caminho-da-Luz" className="btn-info">
+              <a href="/sistema/filmes/Caminho-da-Luz" className="btn-info">
                 Mais info
               </a>
               <span className="btn-favorito">
@@ -213,7 +213,7 @@ export default function CatalogoPage() {
             </p>
 
             <div className="card-acoes">
-              <a href="/filmes/o-milagre-em-roma" className="btn-info">
+              <a href="/sistema/filmes/o-milagre-em-roma" className="btn-info">
                 Mais info
               </a>
               <span className="btn-favorito">
@@ -233,22 +233,22 @@ export default function CatalogoPage() {
             {
               titulo: "As Pegadas de Pedro",
               img: "/assets/Image/As Pegadas de Pedro.jpg",
-              link: "/filmes/as-pegadas-de-pedro",
+              link: "/sistema/filmes/as-pegadas-de-pedro",
             },
             {
               titulo: "Sob o Manto da Virgem",
               img: "/assets/Image/Sob o Manto da Virgem.jpg",
-              link: "/filmes/sob-o-manto-da-virgem",
+              link: "/sistema/filmes/sob-o-manto-da-virgem",
             },
             {
               titulo: "Entre Rosários e Estrelas",
               img: "/assets/Image/Entre Rosários e Estrelas.jpg",
-              link: "/filmes/entre-rosarios-e-estrelas",
+              link: "/sistema/filmes/entre-rosarios-e-estrelas",
             },
             {
               titulo: "O Silêncio do Mosteiro",
               img: "/assets/Image/O Silêncio do Mosteiro.jpg",
-              link: "/filmes/o-silencio-do-mosteiro",
+              link: "/sistema/filmes/o-silencio-do-mosteiro",
             },
           ].map((filme) => (
             <div className="card-movie" key={filme.titulo}>
@@ -373,8 +373,8 @@ export default function CatalogoPage() {
             },
           ].map((filme) => {
             const link = filme.categoria
-              ? `/filmes/categorias/${filme.categoria}/${filme.pasta}`
-              : `/filmes/${filme.pasta}`;
+              ? `/sistema/filmes/categorias/${filme.categoria}/${filme.pasta}`
+              : `/sistema/filmes/${filme.pasta}`;
 
             return (
               <div className="card-lacamento" key={filme.titulo}>
