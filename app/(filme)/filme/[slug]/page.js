@@ -1,13 +1,20 @@
 import { filmes } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
-export async function 
-  generateMetadata({ params }) {
-    const slug = params.slug;
-    return{
-      title: `${slug.replace(/-/g, "")}`,
+export async function generateMetadata({ params }) {
+  const filme = filmes.find((f) => f.slug === params.slug);
+
+  if (!filme) {
+    return {
+      title: "Filme",
     };
   }
+
+  return {
+    title: filme.titulo,
+    description: filme.descricao,
+  };
+}
 
 export function generateStaticParams() {
   return filmes.map((filme) => ({
@@ -15,8 +22,8 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function FilmePage({ params }) {
-  const { slug } = await params;
+export default function FilmePage({ params }) {
+  const { slug } = params;
 
   const filme = filmes.find((f) => f.slug === slug);
 
