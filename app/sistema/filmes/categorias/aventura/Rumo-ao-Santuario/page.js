@@ -2,7 +2,7 @@ export default function RumoAoSantuario() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes-background/Aventura/Rumo-ao-Santuario/Rumo\ Ao\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/Aventura/Rumo-ao-Santuario/Rumo\ ao\ Santuário\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">
