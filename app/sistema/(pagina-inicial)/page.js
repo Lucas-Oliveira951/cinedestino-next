@@ -70,7 +70,7 @@ export default async function Sistema() {
             {/* Filme 2  */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/o-milagre-em-roma">
+                <a href="/sistema/filmes/o-milagre-em-roma">
                   <img
                     src="/../assets/Image/O Milagre em Roma.jpg"
                     alt="O Milagre em Roma"
@@ -87,7 +87,7 @@ export default async function Sistema() {
             {/* Filme 3 */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/chama-do-perdao">
+                <a href="/sistema/filmes/chama-do-perdao">
                   <img
                     src="/../assets/Image/Chama do Perdão.jpg"
                     alt="Chama do Perdão"
@@ -104,7 +104,7 @@ export default async function Sistema() {
             {/* Filme 4 */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/o-peregrino-de-assis">
+                <a href="/sistema/filmes/o-peregrino-de-assis">
                   <img
                     src="/../assets/Image/O Peregrino de Assis.jpg"
                     alt="O Peregrino de Assis"
@@ -121,7 +121,7 @@ export default async function Sistema() {
             {/* Filme 4 */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/o-silencio-do-mosteiro">
+                <a href="/sistema/filmes/o-silencio-do-mosteiro">
                   <img
                     src="/../assets/Image/O Silêncio do Mosteiro.jpg"
                     alt="O Silêncio do Mosteiro"
@@ -144,7 +144,7 @@ export default async function Sistema() {
           <article className="filmes2">
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/lagrimas-de-esperanca">
+                <a href="/sistema/filmes/lagrimas-de-esperanca">
                   <img
                     src="/../assets/Image/Lágrimas de Esperança.jpg"
                     alt="Lágrimas de Esperança"
@@ -161,7 +161,7 @@ export default async function Sistema() {
             {/* Filme 2 (background diferente) */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/sob-o-manto-da-virgem">
+                <a href="/sistema/filmes/sob-o-manto-da-virgem">
                   <img
                     src="/../assets/Image/Sob o Manto da Virgem.jpg"
                     alt="Sob o Manto da Virgem"
@@ -178,7 +178,7 @@ export default async function Sistema() {
             {/* Filme 3 (background diferente) */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/as-pegadas-de-pedro">
+                <a href="/sistema/filmes/as-pegadas-de-pedro">
                   <img
                     src="/../assets/Image/As Pegadas de Pedro.jpg"
                     alt="As Pegadas de Pedro"
@@ -195,7 +195,7 @@ export default async function Sistema() {
             {/* Filme 4 (background diferente) */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/a-ultima-capela">
+                <a href="/sistema/filmes/a-ultima-capela">
                   <img
                     src="/../assets/Image/A Última Capela.jpg"
                     alt="A Última Capela"
@@ -212,7 +212,7 @@ export default async function Sistema() {
             {/* Filme 5 (background diferente) */}
             <div className="filme-card">
               <div className="poster">
-                <a href="/filmes/entre-rosarios-e-estrelas">
+                <a href="/sistema/filmes/entre-rosarios-e-estrelas">
                   <img
                     src="/../assets/Image/Entre Rosários e Estrelas.jpg"
                     alt="Entre Rosários e Estrelas"
@@ -237,7 +237,7 @@ export default async function Sistema() {
             {/* Filme mobile 1 */}
             <div className="filme-card-mobile">
               <div className="poster-mobile">
-                <a href="/filmes/Caminho-da-Luz">
+                <a href="/sistema/filmes/Caminho-da-Luz">
                   <img
                     src="/../assets/Image/Caminho da Luz.jpg"
                     alt="Caminho da Luz"
@@ -254,7 +254,7 @@ export default async function Sistema() {
             {/* Filme mobile 2 */}
             <div className="filme-card-mobile">
               <div className="poster-mobile">
-                <a href="/filmes/o-milagre-em-roma">
+                <a href="/sistema/filmes/o-milagre-em-roma">
                   <img
                     src="/../assets/Image/O Milagre em Roma.jpg"
                     alt="O Milagre em Roma"
@@ -271,7 +271,7 @@ export default async function Sistema() {
             {/* Filme mobile 3 */}
             <div className="filme-card-mobile">
               <div className="poster-mobile">
-                <a href="/filmes/chama-do-perdao">
+                <a href="/sistema/filmes/chama-do-perdao">
                   <img
                     src="/../assets/Image/Chama do Perdão.jpg"
                     alt="Chama do Perdão"
@@ -295,7 +295,7 @@ export default async function Sistema() {
           <article className="filmes-mobile2">
             <div className="filme-card-mobile2">
               <div className="poster-mobile2">
-                <a href="/filmes/o-peregrino-de-assis">
+                <a href="/sistema/filmes/o-peregrino-de-assis">
                   <img
                     src="/../assets/Image/O Peregrino de Assis.jpg"
                     alt="O Peregrino de Assis"
@@ -312,7 +312,7 @@ export default async function Sistema() {
             {/* Filme mobile 1 (background diferente - Versão de Mobile) */}
             <div className="filme-card-mobile2">
               <div className="poster-mobile2">
-                <a href="/filmes/o-silencio-do-mosteiro">
+                <a href="/sistema/filmes/o-silencio-do-mosteiro">
                   <img
                     src="/../assets/Image/O Silêncio do Mosteiro.jpg"
                     alt="O Silêncio do Mosteiro"
@@ -329,7 +329,7 @@ export default async function Sistema() {
             {/* Filme mobile 1 (background diferente - Versão de Mobile) */}
             <div className="filme-card-mobile2">
               <div className="poster-mobile2">
-                <a href="/filmes/lagrimas-de-esperanca">
+                <a href="/sistema/filmes/lagrimas-de-esperanca">
                   <img
                     src="/../assets/Image/Lágrimas de Esperança.jpg"
                     alt="Lágrimas de Esperança"
@@ -351,7 +351,7 @@ export default async function Sistema() {
           <article className="filmes-mobile">
             <div className="filme-card-mobile">
               <div className="poster-mobile">
-                <a href="/filmes/sob-o-manto-da-virgem">
+                <a href="/sistema/filmes/sob-o-manto-da-virgem">
                   <img
                     src="/../assets/Image/Sob o Manto da Virgem.jpg"
                     alt="Sob o Manto da Virgem"
@@ -368,7 +368,7 @@ export default async function Sistema() {
             {/* Filme mobile 1 (background diferente - Versão de Mobile) */}
             <div className="filme-card-mobile">
               <div className="poster-mobile">
-                <a href="/filmes/as-pegadas-de-pedro">
+                <a href="/sistema/filmes/as-pegadas-de-pedro">
                   <img
                     src="/../assets/Image/As Pegadas de Pedro.jpg"
                     alt="As Pegadas de Pedro"
@@ -385,7 +385,7 @@ export default async function Sistema() {
             {/* Filme mobile 2 (background diferente - Versão de Mobile) */}
             <div className="filme-card-mobile">
               <div className="poster-mobile">
-                <a href="/filmes/a-ultima-capela">
+                <a href="/sistema/filmes/a-ultima-capela">
                   <img
                     src="/../assets/Image/A Última Capela.jpg"
                     alt="A Última Capela"
@@ -407,7 +407,7 @@ export default async function Sistema() {
           <article className="filmes-mobile3">
             <div className="filme-card-mobile3">
               <div className="poster-mobile3 ">
-                <a href="/filmes/entre-rosarios-e-estrelas">
+                <a href="/sistema/filmes/entre-rosarios-e-estrelas">
                   <img
                     src="/../assets/Image/Entre Rosários e Estrelas.jpg"
                     alt="Entre Rosários e Estrelas"
