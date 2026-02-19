@@ -10,18 +10,19 @@ export async function generateStaticParams() {
 
 // Gera o <title> dinâmico
 export async function generateMetadata({ params }) {
-  const filme = filmes.find((f) => f.slug === params.slug);
+  try {
+    const slug = params?.slug;
+    const filme = filmes.find((f) => f.slug === slug);
 
-  if (!filme) {
     return {
-      title: "Filme não encontrado",
+      title: filme?.titulo || "Filme",
+      description: filme?.descricao || "",
+    };
+  } catch {
+    return {
+      title: "Filme",
     };
   }
-
-  return {
-    title: filme.titulo,
-    description: filme.descricao,
-  };
 }
 
 export default function FilmePage({ params }) {
