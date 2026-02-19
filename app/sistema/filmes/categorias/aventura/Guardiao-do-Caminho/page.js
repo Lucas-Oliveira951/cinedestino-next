@@ -2,7 +2,7 @@ export default function GuardiaoDoCaminho() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes-background/aventura/Guardiao-do-Caminho/Guardião\ Do\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/Aventura/Guardiao-do-Caminho/Guardião\ Do\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">
