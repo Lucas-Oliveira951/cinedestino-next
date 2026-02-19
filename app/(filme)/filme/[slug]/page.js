@@ -1,13 +1,14 @@
 import { filmes } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
+// Gera as rotas estáticas
 export function generateStaticParams() {
   return filmes.map((filme) => ({
     slug: filme.slug,
   }));
 }
 
-// ✅ Adiciona o title dinamicamente
+// Gera o <title> dinamicamente
 export function generateMetadata({ params }) {
   const filme = filmes.find((f) => f.slug === params.slug);
 
@@ -22,10 +23,9 @@ export function generateMetadata({ params }) {
   };
 }
 
+// Página do filme
 export default function FilmePage({ params }) {
-  const { slug } = params;
-
-  const filme = filmes.find((f) => f.slug === slug);
+  const filme = filmes.find((f) => f.slug === params.slug);
 
   if (!filme) {
     notFound();
