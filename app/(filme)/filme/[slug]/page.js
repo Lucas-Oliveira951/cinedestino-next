@@ -7,16 +7,22 @@ export function generateStaticParams() {
   }));
 }
 
-export default function FilmePage({ params }) {
+export default async function FilmePage({ params }) {
+  const { slug } = await params;
 
-  const filme = filmes.find((f) => f.slug === params.slug);
+  const filme = filmes.find((f) => f.slug === slug);
 
   if (!filme) {
     notFound();
   }
 
   return (
-    <main className="background-filme">
+    <main
+      className="background-filme"
+      style={{
+        backgroundImage: `url("${filme.background}")`,
+      }}
+    >
       <div className="container-poster">
         <div className="poster">
           <img src={filme.imagem} alt={filme.titulo} />
