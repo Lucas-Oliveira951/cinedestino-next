@@ -9,7 +9,7 @@ export default function AIlhaDaCruzPerdida() {
 
         <div className="poster">
           <img
-            src="/assets/Image/A Ilha da Cruz Perdida.jpg"
+            src="/assets/Image/A ilha da Cruz Perdida.jpg"
             alt="A Ilha da Cruz Perdida"
             title="Imagem Criada pelo Gemini IA"
           />
