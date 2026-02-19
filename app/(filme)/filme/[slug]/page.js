@@ -23,7 +23,7 @@ export function generateStaticParams() {
 }
 
 export default function FilmePage({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const filme = filmes.find((f) => f.slug === slug);
 
