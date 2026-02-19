@@ -1,14 +1,20 @@
 import { filmes } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
+// Gera as rotas estáticas para o build (Vercel precisa disso)
+export async function generateStaticParams() {
+  return filmes.map((filme) => ({
+    slug: filme.slug,
+  }));
+}
+
+// Gera o <title> dinâmico
 export async function generateMetadata({ params }) {
-  const filme = filmes.find(
-    (f) => f.slug.toLowerCase() === params.slug.toLowerCase()
-  );
+  const filme = filmes.find((f) => f.slug === params.slug);
 
   if (!filme) {
     return {
-      title: "Filme",
+      title: "Filme não encontrado",
     };
   }
 
@@ -16,12 +22,6 @@ export async function generateMetadata({ params }) {
     title: filme.titulo,
     description: filme.descricao,
   };
-}
-
-export function generateStaticParams() {
-  return filmes.map((filme) => ({
-    slug: filme.slug,
-  }));
 }
 
 export default function FilmePage({ params }) {
