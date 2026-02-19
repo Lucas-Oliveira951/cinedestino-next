@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import filmes from "@/app/data/filmes";
+import { filmes } from "@/app/data/filmes";
 
 const filmeLuz = filmes.find((f) => f.slug === "caminho-da-luz");
 
