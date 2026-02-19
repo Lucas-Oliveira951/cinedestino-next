@@ -2,7 +2,9 @@ import { filmes } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
-  const filme = filmes.find((f) => f.slug === params.slug);
+  const filme = filmes.find(
+    (f) => f.slug.toLowerCase() === params.slug.toLowerCase()
+  );
 
   if (!filme) {
     return {
@@ -25,7 +27,9 @@ export function generateStaticParams() {
 export default function FilmePage({ params }) {
   const { slug } = params;
 
-  const filme = filmes.find((f) => f.slug === slug);
+ const filme = filmes.find(
+  (f) => f.slug.toLowerCase() === slug.toLowerCase()
+);
 
   if (!filme) {
     notFound();
