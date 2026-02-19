@@ -156,7 +156,7 @@ const CATEGORIAS = {
       },
       {
         titulo: "A Ilha da Cruz Perdida",
-        img: "/catalogo/A Ilha da Cruz Perdida.png",
+        img: "/catalogo/A ilha da Cruz Perdida.png",
         link: "/sistema/filmes/categorias/aventura/A-Ilha-da-Cruz-Perdida",
       },
       {
