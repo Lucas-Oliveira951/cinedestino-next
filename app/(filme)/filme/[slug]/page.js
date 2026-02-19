@@ -35,7 +35,7 @@ export default function FilmePage({ params }) {
     <main
       className="background-filme"
       style={{
-        backgroundImage: `url(${filme.background})`,
+        //backgroundImage: `url(${filme.background})`,
       }}
     >
       <div className="container-poster">
