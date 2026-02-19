@@ -23,7 +23,9 @@ export function generateMetadata({ params }) {
 }
 
 export default function FilmePage({ params }) {
-  console.log("Slug recebido:", params.slug);
+  console.log("FILMES:", filmes);
+  console.log("PARAMS:", params);
+
   const filme = filmes.find((f) => f.slug === params.slug);
 
   if (!filme) {
