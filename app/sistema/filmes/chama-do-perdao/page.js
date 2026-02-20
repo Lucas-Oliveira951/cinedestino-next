@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Chama do Perdão",
+};
+
 export default function ChamaDoPerdao() {
   return (
     <main 
