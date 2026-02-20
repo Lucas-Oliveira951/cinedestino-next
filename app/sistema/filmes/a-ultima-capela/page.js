@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "A Última Capela",
+};
+
 export default function AUltimaCapela() {
   return (
     <main 
