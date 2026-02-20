@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "As Pegadas de Pedro",
+};
+
 export default function SobOMantoDaVirgem() {
   return (
     <main 
