@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Sob o Manto da Virgem",
+};
+
 export default function SobOMantoDaVirgem() {
   return (
     <main 

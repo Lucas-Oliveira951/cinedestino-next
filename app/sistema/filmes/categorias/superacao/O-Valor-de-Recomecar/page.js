@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "O Valor de Recomeçar",
+};
+
 export default function OValorDeRecomecar() {
   return (
     <main 

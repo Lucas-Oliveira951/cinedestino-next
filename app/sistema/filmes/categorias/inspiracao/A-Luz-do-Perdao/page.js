@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "A Luz do Perdão",
+};
+
 export default function ALuzDoPerdao() {
   return (
     <main 

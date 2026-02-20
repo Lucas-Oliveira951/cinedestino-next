@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Luz em Meu Caminho",
+};
+
 export default function LuzEmMeuCaminho() {
   return (
     <main 

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "O Milagre em Roma",
+};
+
 export default function oMilagreEmRoma() {
   return (
     <main 

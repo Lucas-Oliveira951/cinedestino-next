@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Nas Trilhas da Fé",
+};
+
 export default function NasTrilhasDaFe() {
   return (
     <main 

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "O Peregrino de Assis",
+};
+
 export default function oPeregrinoDeAssis() {
   return (
     <main 

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Milagre no Deserto",
+};
+
 export default function MilagreNoDeserto() {
   return (
     <main 

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "O Manuscrito de Antioquia",
+};
+
 export default function OManuscritoDeAntioquia() {
   return (
     <main 

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Oração de Fátima",
+};
+
 export default function OracaoDeFatima() {
   return (
     <main 

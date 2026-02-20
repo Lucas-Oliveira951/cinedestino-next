@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Entre Rosários e Estrelas",
+};
+
 export default function EntreRosariosEEstrelas() {
   return (
     <main 

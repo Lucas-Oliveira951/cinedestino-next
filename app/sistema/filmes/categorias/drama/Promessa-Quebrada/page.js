@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Promessa Quebrada",
+};
+
 export default function PromessaQuebrada() {
   return (
     <main 

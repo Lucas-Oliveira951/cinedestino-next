@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "O Silêncio do Mosteiro",
+};
+
 export default function oSilencioDoMosteiro() {
   return (
     <main 

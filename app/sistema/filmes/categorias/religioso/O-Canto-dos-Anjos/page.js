@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "O Canto dos Anjos",
+};
+
 export default function OCantoDosAnjos() {
   return (
     <main 

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Corações que Curam",
+};
+
 export default function CoracoesQueCuram() {
   return (
     <main 

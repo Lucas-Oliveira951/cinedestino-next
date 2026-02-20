@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Guardião do Caminho",
+};
+
 export default function GuardiaoDoCaminho() {
   return (
     <main 

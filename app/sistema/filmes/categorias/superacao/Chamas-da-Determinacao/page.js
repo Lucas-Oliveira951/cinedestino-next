@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Chamas da Determinação",
+};
+
 export default function ChamasDaDeterminacao() {
   return (
     <main 

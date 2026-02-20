@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "O Peso do Silêncio",
+};
+
 export default function OPesoDoSilencio() {
   return (
     <main 

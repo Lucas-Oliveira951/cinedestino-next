@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "A Jornada de Helena",
+};
+
 export default function AJornadaDeHelena() {
   return (
     <main 

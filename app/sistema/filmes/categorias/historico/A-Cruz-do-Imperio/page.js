@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "A Cruz do Império",
+};
+
 export default function ACruzDoImperio() {
   return (
     <main 

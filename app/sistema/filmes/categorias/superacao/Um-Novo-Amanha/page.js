@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Um Novo Amanhã",
+};
+
 export default function UmNovoAmanha() {
   return (
     <main 

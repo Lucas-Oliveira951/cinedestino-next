@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Vento da Graça",
+};
+
 export default function VentoDaGraca() {
   return (
     <main 

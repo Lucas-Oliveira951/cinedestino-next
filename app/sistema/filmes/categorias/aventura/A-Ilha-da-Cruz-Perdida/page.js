@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "A Ilha da Cruz Perdida",
+};
+
 export default function AIlhaDaCruzPerdida() {
   return (
     <main 

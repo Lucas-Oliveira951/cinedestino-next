@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Caminho de Lágrimas",
+};
+
 export default function CaminhoDeLagrimas() {
   return (
     <main 

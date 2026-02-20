@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Rumo ao Santuário",
+};
+
 export default function RumoAoSantuario() {
   return (
     <main 

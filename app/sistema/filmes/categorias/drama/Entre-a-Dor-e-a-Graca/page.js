@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Entre a Dor e a Graça",
+};
+
 export default function EntreADorEAGraca() {
   return (
     <main 

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "No Coração da Oração",
+};
+
 export default function NoCoracaoDaOracao() {
   return (
     <main 
