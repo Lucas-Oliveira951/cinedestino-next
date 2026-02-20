@@ -7,6 +7,21 @@ export function generateStaticParams() {
   }));
 }
 
+export function generateMetadata({ params }) {
+  const filme = filmes.find((f) => f.slug === params.slug);
+
+  if (!filme) {
+    return {
+      title: "Filme não encontrado",
+    };
+  }
+
+  return {
+    title: `${filme.titulo} | CineDestino`,
+    description: filme.descricao,
+  };
+}
+
 export default async function FilmePage({ params }) {
   const { slug } = await params;
 
