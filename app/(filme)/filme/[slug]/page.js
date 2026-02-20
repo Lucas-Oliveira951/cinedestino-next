@@ -7,7 +7,7 @@ export function generateStaticParams() {
   }));
 }
 
-// ✅ FAÇA ASSIM
+// Gerador de title dinâmico
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${filme.titulo} | CineDestino`,
+    title: `${filme.titulo}`,
     description: filme.descricao,
   };
 }
