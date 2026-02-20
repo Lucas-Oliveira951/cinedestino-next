@@ -7,8 +7,11 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const filme = filmes.find((f) => f.slug === params.slug);
+// ✅ FAÇA ASSIM
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  const filme = filmes.find((f) => f.slug === slug);
 
   if (!filme) {
     return {
