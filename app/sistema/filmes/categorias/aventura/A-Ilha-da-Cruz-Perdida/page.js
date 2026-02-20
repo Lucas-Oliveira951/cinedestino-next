@@ -2,14 +2,14 @@ export default function AIlhaDaCruzPerdida() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes-background/aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/Aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">
 
         <div className="poster">
           <img
-            src="/assets/Image/A Ilha da Cruz Perdida.jpg"
+            src="/assets/Image/A ilha da Cruz Perdida.jpg"
             alt="A Ilha da Cruz Perdida"
             title="Imagem Criada pelo Gemini IA"
           />

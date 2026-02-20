@@ -36,13 +36,16 @@ export default function MenuMobile({ variant = "private" }) {
           </li>
 
           <li>
-            <a href="/catalogo" onClick={closeMenu}>
+            <a
+              href={isPublic ? "/catalogo" : "/sistema/catalogo"}
+              onClick={closeMenu}
+            >
               <i className="fa-solid fa-gears"></i>Catálogo
             </a>
           </li>
 
           <li>
-            <a href="/sobre" onClick={closeMenu}>
+            <a href={isPublic ? "/sobre" : "/sistema/sobre"} onClick={closeMenu}>
               <i className="fa-solid fa-circle-info"></i>Sobre
             </a>
           </li>

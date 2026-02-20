@@ -9,7 +9,7 @@ export default function UmNovoAmanha() {
 
         <div className="poster">
           <img
-            src="/assets/Image/Um Novo Amanhã.jpg"
+            src="/assets/Image/Um Novo amanhã.jpg"
             alt="Um Novo Amanhã"
             title="Imagem Criada pelo Gemini IA"
           />

@@ -2,7 +2,7 @@ export const filmes = [
 
   // Catálogo Principal
   {
-    slug: "Caminho-da-Luz",
+    slug: "caminho-da-luz",
     titulo: "Caminho da Luz",
     descricao: "A história de um jovem que encontra força na fé para transformar sua comunidade em meio às adversidades.",
     imagem: "/assets/Image/Caminho da Luz.jpg",

@@ -8,8 +8,10 @@ const nunito = Nunito({
 });
 
 export const metadata = {
-  title: "CineDestino",
-  description: "Descubra filmes e destinos incríveis",
+  title: {
+    default: "CineDestino",
+    template: "Cinedestino - %s"
+  },
 };
 
 export default function RootLayout({ children }) {

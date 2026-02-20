@@ -2,7 +2,7 @@ export default function SobOMantoDaVirgem() {
   return (
     <main 
         className="filme-page"
-        style={{backgroundImage: "url('/filmes-background/sob-o-manto-da-virgem/Sob\ o\ Manto\ Da\ Virgem\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+        style={{backgroundImage: "url('/filmes-background/sob-o-manto-da-virgem/Sob\ o\ Manto\ da\ Virgem\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
     >
 
       <div className="container-poster">

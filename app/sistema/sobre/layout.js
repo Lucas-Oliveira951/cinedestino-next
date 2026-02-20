@@ -2,6 +2,10 @@ import { cookies } from "next/headers";
 import Header from "../../sistema/components/header";
 import "./sobre.css";
 
+export const metadata = {
+  title: "Sobre",
+};
+
 export default async function SobreLayout({ children }) {
   const cookieStore = await cookies();
 

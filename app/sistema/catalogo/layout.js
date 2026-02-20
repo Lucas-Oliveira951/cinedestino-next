@@ -2,6 +2,10 @@ import Header from "../../sistema/components/header";
 import { cookies } from "next/headers";
 import "./catalogo.css";
 
+export const metadata = {
+  title: "Catálogo",
+};
+
 export default async function CatalogoLayout({ children }) {
   const cookieStore = await cookies();
 

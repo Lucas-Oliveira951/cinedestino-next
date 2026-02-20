@@ -9,7 +9,7 @@ export default function ACruzDoImperio() {
 
         <div className="poster">
           <img
-            src="/assets/Image/A Cruz do Império.jpg"
+            src="/assets/Image/A Cruz do império.jpg"
             alt="A Cruz do Império"
             title="Imagem Criada pelo Gemini IA"
           />

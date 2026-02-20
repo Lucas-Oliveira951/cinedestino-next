@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { filmes } from "@/app/data/filmes";
 
-const filmeLuz = filmes.find((f) => f.slug === "Caminho-da-Luz");
+const filmeLuz = filmes.find((f) => f.slug === "caminho-da-luz");
 
 const filmeRoma = filmes.find((f) => f.slug === "o-milagre-em-roma");
 

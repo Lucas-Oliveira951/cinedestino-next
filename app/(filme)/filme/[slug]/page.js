@@ -7,6 +7,24 @@ export function generateStaticParams() {
   }));
 }
 
+// Gerador de title dinâmico
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  const filme = filmes.find((f) => f.slug === slug);
+
+  if (!filme) {
+    return {
+      title: "Filme não encontrado",
+    };
+  }
+
+  return {
+    title: `${filme.titulo}`,
+    description: filme.descricao,
+  };
+}
+
 export default async function FilmePage({ params }) {
   const { slug } = await params;
 
