@@ -22,6 +22,7 @@
 body {
   background-color: var(--primary-color);
   transition: background-color 0.5s ease;
+  overflow: auto !important;
 }
 
 .header {
@@ -312,7 +313,7 @@ img.foto_de_perfil_mobile {
 
 /* Conteudo do catálogo*/
 
-.conteudo {
+.conteudo-catalogo {
   transition: all 0.5s ease;
 }
 
@@ -556,8 +557,8 @@ body.ativo {
 .card-btn i {
   background-color: var(--button-color);
   color: #fff;
-  padding: 12px;
   border-radius: 100%;
+  padding: 12px;
 }
 
 .card-btn i:hover {

@@ -1,17 +1,20 @@
-import { filmes } from "@/app/data/filmes";
+import { filmes, filmesCategoria } from "@/app/data/filmes";
 import { notFound } from "next/navigation";
 
+/* 🔥 Unificando todos os filmes */
+const todosFilmes = [...filmes, ...filmesCategoria];
+
 export function generateStaticParams() {
-  return filmes.map((filme) => ({
+  return todosFilmes.map((filme) => ({
     slug: filme.slug,
   }));
 }
 
-// Gerador de title dinâmico
+/* ✅ Next 15 → precisa de await */
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
-  const filme = filmes.find((f) => f.slug === slug);
+  const filme = todosFilmes.find((f) => f.slug === slug);
 
   if (!filme) {
     return {
@@ -20,7 +23,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${filme.titulo}`,
+    title: filme.titulo,
     description: filme.descricao,
   };
 }
@@ -28,7 +31,7 @@ export async function generateMetadata({ params }) {
 export default async function FilmePage({ params }) {
   const { slug } = await params;
 
-  const filme = filmes.find((f) => f.slug === slug);
+  const filme = todosFilmes.find((f) => f.slug === slug);
 
   if (!filme) {
     notFound();
@@ -43,12 +46,15 @@ export default async function FilmePage({ params }) {
     >
       <div className="container-poster">
         <div className="poster">
-          <img src={filme.imagem} alt={filme.titulo} />
+          <img className="poster-imagem" src={filme.imagem} alt={filme.titulo} />
         </div>
 
         <div className="info-filme">
           <h1 className="titulo-filme">{filme.titulo}</h1>
           <span>{filme.duracaoCategoria}</span>
+          <div className="nota-filme">
+            <p><i className="fa-solid fa-star"></i> {filme.nota}</p>
+          </div>
           <p className="sinopse">{filme.descricao}</p>
 
           <div className="buttons">

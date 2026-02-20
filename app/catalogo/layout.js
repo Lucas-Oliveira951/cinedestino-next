@@ -1,5 +1,5 @@
 import "./catalogo.css";
-import Header from "../../sistema/components/header";
+import Header from "../sistema/components/header";
 
 export const metadata = {
   title: "Catálogo",

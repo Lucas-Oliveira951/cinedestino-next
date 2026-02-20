@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="conteudo">
+      <main className="conteudo-pagina-inicial">
         <div className="apresentacao">
           <h1>Melhores Filmes Católicos para</h1>
           <h3>Assistir com a sua família</h3>
