@@ -1,6 +1,5 @@
 "use client";
 
-// import "../assets/css/cadastro.css";
 import { useState } from "react";
 
 export default function Cadastro() {
@@ -20,9 +19,7 @@ export default function Cadastro() {
   const [msgUpload, setMsgUpload] = useState("");
   const [tipoUpload, setTipoUpload] = useState(""); // erro | sucesso
 
-  /* ======================
-     VALIDAÇÃO (estilo PHP)
-  ======================= */
+  /* Validação */
   const validarCampos = () => {
     if (!nome && !email && !senha) {
       setTipoCadastro("erro");
@@ -69,9 +66,7 @@ export default function Cadastro() {
     return true;
   };
 
-  /* ======================
-     CADASTRO
-  ======================= */
+  /* Cadastro */
   const handleCadastro = async (e) => {
     e.preventDefault();
 
@@ -108,9 +103,7 @@ export default function Cadastro() {
     }
   };
 
-  /* ======================
-     PREVIEW DA FOTO
-  ======================= */
+  /* Preview da foto */
   const handleSelecionarFoto = (e) => {
     const file = e.target.files[0];
 
@@ -120,9 +113,7 @@ export default function Cadastro() {
     }
   };
 
-  /* ======================
-     UPLOAD DA FOTO
-  ======================= */
+  /* Upload da foto */
   const handleUploadFoto = async (e) => {
     e.preventDefault();
 
@@ -167,14 +158,12 @@ export default function Cadastro() {
     }
   };
 
-  /* ======================
-     RENDER
-  ======================= */
+  /* Render */
   return (
     <main className="conteudo">
       <div className="container-login">
 
-        {/* ===== FORMULÁRIO DE CADASTRO ===== */}
+        {/* Formulário de Cadastro */}
         {!token ? (
           <form onSubmit={handleCadastro}>
             <h1>Crie sua conta gratuita</h1>
@@ -210,7 +199,7 @@ export default function Cadastro() {
 
             <input id="Button" type="submit" value="Criar uma conta" />
 
-            {/* MENSAGEM DO CADASTRO */}
+            {/* Mensagem do cadastro */}
             {msgCadastro && (
               <div className={`mensagem ${tipoCadastro}`}>
                 <i
@@ -224,13 +213,13 @@ export default function Cadastro() {
               </div>
             )}
 
-            {/* LINK LOGIN (só no cadastro) */}
+            {/* Link login */}
             <p className="login-option">
               Já criou uma conta? <a href="/login">Login</a>
             </p>
           </form>
         ) : (
-          /* ===== FORMULÁRIO DE UPLOAD ===== */
+          // Formulário de upload
           <form onSubmit={handleUploadFoto}>
             <h1 className="titulo-escolha-uma-foto">
               Escolha uma foto para seu perfil
@@ -260,7 +249,7 @@ export default function Cadastro() {
 
             <input id="Button" type="submit" value="Escolher foto" />
 
-            {/* MENSAGEM DO UPLOAD */}
+            {/* Mensagem do upload */}
             {msgUpload && (
               <div className={`mensagem ${tipoUpload}`}>
                 <i
