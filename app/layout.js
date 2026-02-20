@@ -1,17 +1,16 @@
-import "./globals.css"
-import { Nunito } from "next/font/google"
+import { Nunito } from "next/font/google";
 
 const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["200","300","400","500","600","700","800","900","1000"],
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900", "1000"],
   style: ["normal", "italic"],
   display: "swap",
-})
+});
 
 export const metadata = {
   title: "CineDestino",
   description: "Descubra filmes e destinos incríveis",
-}
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -26,9 +25,7 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className={nunito.className}>
-        {children}
-      </body>
+      <body className={nunito.className}>{children}</body>
     </html>
-  )
+  );
 }
