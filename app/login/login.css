@@ -67,6 +67,7 @@ input#Button {
   font-size: 18px;
   transition: 0.3s;
   width: 100%;
+  border: none;
 }
 
 input#Button:hover {
