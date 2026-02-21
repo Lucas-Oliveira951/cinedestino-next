@@ -216,7 +216,7 @@ export default function Cadastro() {
           // Formulário de upload
           <form onSubmit={handleUploadFoto}>
             <h1 className="titulo-escolha-uma-foto">
-              Escolha uma foto para seu perfil
+              Escolha uma foto para seu perfil:
             </h1>
 
             {preview && (
