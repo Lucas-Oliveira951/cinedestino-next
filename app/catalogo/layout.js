@@ -9,7 +9,7 @@ export default function CatalogoLayout({ children }) {
   return (
     <>
       <Header variant="filme-public" showSearch={true} />
-      <div>{children}</div>
+      {children}
     </>
   );
 }

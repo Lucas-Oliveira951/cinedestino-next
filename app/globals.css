@@ -1,16 +1,22 @@
 @charset "UTF-8";
 
 :root {
-    --primary-color: #0B0B0B;
-    --secundary-color: #1C1C1C;
-    --text-color: #E4D6A9;
-    --tercery-color: #650207;
+  --primary-color: #0b0b0b;
+  --secundary-color: #1c1c1c;
+  --text-color: #e4d6a9;
+  --tercery-color: #650207;
+  --button-color: #a82324;
+  --header-height: 80px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  background-color: var(--primary-color);
+  transition: background-color 0.5s ease;
+  --font-secundary: var(--font-righteous);
+}

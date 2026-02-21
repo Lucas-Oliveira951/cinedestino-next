@@ -184,7 +184,7 @@ export default function CatalogoPage() {
 
           <div className="card-conteudo">
             <h2>Caminho da Luz</h2>
-            <p className="lancamento">Lançamento: 21 Outubro 2025</p>
+            <p className="lancamento">Lançamento: 21 Outubro, 2025</p>
             <p className="sinopse">
               A história de um jovem que encontra força na fé para transformar
               sua comunidade em meio às adversidades.
@@ -209,7 +209,7 @@ export default function CatalogoPage() {
             <p className="lancamento">Lançamento: 6 Janeiro, 2024</p>
             <p className="sinopse">
               Durante a Idade Média, uma pequena capela no coração de Roma
-              torna-se palco de um milagre.
+              torna-se palco de um milagre que muda a vida de todos ao redor.
             </p>
 
             <div className="card-acoes">

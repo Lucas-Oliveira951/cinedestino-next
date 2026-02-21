@@ -23,7 +23,7 @@ export const filmes = [
     duracaoCategoria: "1h30 min | 🕊️ Histórico / Religioso",
     nota: "9,5/10",
     ano: "2025",
-    lancamento: "6 janeiro, 2024",
+    lancamento: "6 Janeiro, 2024",
     background:
       "/filmes-background/o-milagre-em-roma/O\ Milagre\ em\ Roma\ -\ background\ \(Desktop\ \ Versão\).jpg",
   },

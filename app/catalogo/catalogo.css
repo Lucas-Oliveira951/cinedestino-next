@@ -1,30 +1,4 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-
-:root {
-  --primary-color: #0b0b0b;
-  --secundary-color: #1c1c1c;
-  --text-color: #e4d6a9;
-  --tercery-color: #650207;
-  --button-color: #a82324;
-  --font-secundary: "Righteous", sans-serif;
-  --header-height: 80px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Nunito", sans-serif;
-}
-
 /* Menu desktop */
-body {
-  background-color: var(--primary-color);
-  transition: background-color 0.5s ease;
-  overflow: auto !important;
-}
-
 .header {
   color: var(--text-color);
   background-color: var(--secundary-color);
@@ -559,6 +533,7 @@ body.ativo {
   color: #fff;
   border-radius: 100%;
   padding: 12px;
+  width: 40px;
 }
 
 .card-btn i:hover {
@@ -720,6 +695,7 @@ body.ativo {
   color: #fff;
   padding: 12px;
   border-radius: 100%;
+  width: 40px;
 }
 
 .movie-btn i:hover {
@@ -855,6 +831,7 @@ body.ativo {
   color: #fff;
   padding: 12px;
   border-radius: 100%;
+  width: 40px;
 }
 
 .lacamento-btn i:hover {
@@ -1162,6 +1139,7 @@ body.ativo {
   /* Filmes Populares */
   .lacamento {
     gap: 36px;
+    justify-content: center;
   }
 
   .card-lacamento {
@@ -1365,8 +1343,8 @@ body.ativo {
     font-size: 1em;
   }
 
-  .lancamento {
-    font-size: 10px;
+  .lacamento h3 {
+    font-size: 14px;
   }
 
   .sinopse {
@@ -1417,13 +1395,17 @@ body.ativo {
     font-size: 14px;
   }
 
-  .btn-info-2 {
-    font-size: 10px;
-    padding: 6px 10px;
+  .btn-info-2,
+  .btn-info-3 {
+    font-size: 11px;
+    padding: 10px;
   }
 
-  .card-btn i {
-    font-size: 10px;
+  .card-btn i,
+  .movie-btn i {
+    font-size: 15px;
+    width: 37px;
+    height: 37px;
   }
 
   /* Barra de filmes por categoria */
@@ -1488,13 +1470,9 @@ body.ativo {
     gap: 10px;
   }
 
-  .movie-btn i {
-    font-size: 10px;
-  }
-
   .btn-info-movie {
-    padding: 6px 10px;
-    font-size: 10px;
+    padding: 10px;
+    font-size: 11px;
   }
 
   /* Filmes Populares */

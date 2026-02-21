@@ -1,35 +1,4 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-
-:root {
-  --primary-color: #0b0b0b;
-  --secundary-color: #1c1c1c;
-  --text-color: #e4d6a9;
-  --tercery-color: #650207;
-  --button-color: #a82324;
-  --font-secundary: "Righteous", sans-serif;
-  --header-height: 80px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-}
-
-html,
-body {
-  height: 100%;
-}
-
 /* menu responsivo para tablets e celulares*/
-body {
-  background-color: var(--primary-color);
-  transition: background-color 0.5s ease;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -1130,7 +1099,6 @@ body.ativo {
 
   .botao-menu {
     display: block;
-    position: absolute;
     right: 135px;
   }
 
@@ -1354,7 +1322,6 @@ body.ativo {
 
   .botao-menu {
     display: block;
-    position: absolute;
     right: 107px;
   }
 
@@ -1409,10 +1376,6 @@ body.ativo {
 
   .card-conteudo h2 {
     font-size: 1em;
-  }
-
-  .lancamento {
-    font-size: 10px;
   }
 
   .sinopse {

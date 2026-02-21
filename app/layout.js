@@ -1,16 +1,23 @@
-import { Nunito } from "next/font/google";
+import { Nunito, Righteous } from "next/font/google";
+import "./globals.css";
 
 const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800", "900", "1000"],
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
   display: "swap",
+});
+
+const righteous = Righteous({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-righteous",
 });
 
 export const metadata = {
   title: {
     default: "CineDestino",
-    template: "Cinedestino - %s"
+    template: "Cinedestino - %s",
   },
 };
 
@@ -27,7 +34,9 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className={nunito.className}>{children}</body>
+      <body className={`${nunito.className} ${righteous.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

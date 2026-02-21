@@ -71,7 +71,7 @@ export default function CatalogoPage() {
 
   /* ✅ CORREÇÃO AQUI */
   const filmesDaCategoria = filmesCategoria.filter(
-    (filme) => filme.categoria === categoriaKey
+    (filme) => filme.categoria === categoriaKey,
   );
 
   return (
@@ -83,9 +83,7 @@ export default function CatalogoPage() {
 
           <div className="card-conteudo">
             <h2>{filmeLuz.titulo}</h2>
-            <p className="lancamento">
-              Lançamento: {filmeLuz.lancamento}
-            </p>
+            <p className="lancamento">Lançamento: {filmeLuz.lancamento}</p>
             <p className="sinopse">{filmeLuz.descricao}</p>
 
             <div className="card-acoes">
@@ -105,9 +103,7 @@ export default function CatalogoPage() {
 
           <div className="card-conteudo">
             <h2>{filmeRoma.titulo}</h2>
-            <p className="lancamento">
-              Lançamento: {filmeRoma.lancamento}
-            </p>
+            <p className="lancamento">Lançamento: {filmeRoma.lancamento}</p>
             <p className="sinopse">{filmeRoma.descricao}</p>
 
             <div className="card-acoes">
@@ -218,10 +214,7 @@ export default function CatalogoPage() {
                 <span className="ano-movie">{filme.ano}</span>
 
                 <div className="lacamento-btn">
-                  <Link
-                    href={`/filme/${filme.slug}`}
-                    className="btn-info-3"
-                  >
+                  <Link href={`/filme/${filme.slug}`} className="btn-info-3">
                     Mais info
                   </Link>
                   <i className="fa-regular fa-heart"></i>
@@ -231,6 +224,230 @@ export default function CatalogoPage() {
           ))}
         </article>
       </section>
+
+      {/* FOOTER Desktop versão */}
+
+      <footer className="informacoes">
+        <div className="informacoes-container">
+          <div className="info-title">Conecte-se conosco</div>
+          <div className="rede-sociais">
+            <a href="#redes-sociais-mobile" className="icon insta">
+              <i className="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#redes-sociais-mobile" className="icon face">
+              <i className="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#redes-sociais-mobile" className="icon twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#redes-sociais-mobile" className="icon mail">
+              <i className="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+          <div className="info-link">
+            <div className="info-coluna1">
+              <a href="#info-coluna">Empregos</a>
+              <a href="#info-coluna">Cookies e Preferências</a>
+              <a href="#info-coluna">Central de Ajuda</a>
+              <a href="#info-coluna">Termos de Uso</a>
+              <a href="#info-coluna">Privacidade</a>
+            </div>
+            <div className="info-coluna">
+              <a href="#info-coluna">Notícias</a>
+              <a href="#info-coluna">Centro de mídia</a>
+              <a href="#info-coluna">Aviso Legal</a>
+              <a href="#info-coluna">Realização dos Investidores</a>
+              <a href="#info-coluna">Feeds</a>
+            </div>
+            <div className="info-coluna">
+              <a href="#info-coluna">Home</a>
+              <a href="#info-coluna">Popular filmes</a>
+              <a href="#info-coluna">Trending filmes</a>
+              <a href="#info-coluna">Latest filmes</a>
+              <a href="#info-coluna">About us</a>
+            </div>
+          </div>
+          <p>&copy;Raphael Antônio & Lucas Batista</p>
+          <p>Criado por Raphael Antônio & Lucas Batista</p>
+        </div>
+      </footer>
+
+      {/* FOOTER TABLET */}
+
+      <footer className="informacoes-tablet">
+        <div className="informacoes-container-tablet">
+          {/* COLUNA 1  */}
+          <div className="rede-sociais-mobile-container">
+            <div className="info-title-tablet">Conecte-se conosco</div>
+
+            <div className="rede-sociais-tablet">
+              <a href="#rede-sociais-mobile" className="icon insta">
+                <i className="fa-brands fa-square-instagram"></i>
+              </a>
+              <a href="#rede-sociais-mobile" className="icon face">
+                <i className="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#rede-sociais-mobile" className="icon twitter">
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#rede-sociais-mobile" className="icon mail">
+                <i className="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+
+            <ul>
+              <li className="services">
+                <a href="#services">Home</a>
+              </li>
+              <li className="services">
+                <a href="#services">Popular filmes</a>
+              </li>
+              <li className="services">
+                <a href="#services">Trending filmes</a>
+              </li>
+              <li className="services">
+                <a href="#services">Latest filmes</a>
+              </li>
+              <li className="services">
+                <a href="#services">About us</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* COLUNA 2  */}
+          <div className="footer-col">
+            <ul>
+              <li>
+                <a href="#footer-col">Empregos</a>
+              </li>
+              <li>
+                <a href="#footer-col">Cookies & Preferências</a>
+              </li>
+              <li>
+                <a href="#footer-col">Central de Ajuda</a>
+              </li>
+              <li>
+                <a href="#footer-col">Termos de Uso</a>
+              </li>
+              <li>
+                <a href="#footer-col">Privacidade</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* COLUNA 3 */}
+          <div className="footer-col">
+            <ul>
+              <li>
+                <a href="#footer-col">Notícias</a>
+              </li>
+              <li>
+                <a href="#footer-col">Centro de mídia</a>
+              </li>
+              <li>
+                <a href="#footer-col">Aviso Legal</a>
+              </li>
+              <li>
+                <a href="#footer-col">Investidores</a>
+              </li>
+              <li>
+                <a href="#footer-col">Feeds</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <p>&copy;Raphael Antônio & Lucas Batista</p>
+          <p>Criado por Raphael Antônio & Lucas Batista</p>
+        </div>
+      </footer>
+
+      {/* FOOTER MOBILE */}
+
+      <footer className="footer-mobile">
+        <div className="info-social-mobile">
+          <div className="info-title-mobile">Conecte-se conosco</div>
+
+          <div className="info-rede-mobile">
+            <a href="#footer-icons-mobile" className="icon insta">
+              <i className="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#footer-icons-mobile" className="icon face">
+              <i className="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#footer-icons-mobile" className="icon twitter">
+              <i className="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#footer-icons-mobile" className="icon mail">
+              <i className="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className="footer-links">
+          {/* COLUNA 1 */}
+          <ul className="coluna-vertical">
+            <li>
+              <a href="#coluna-vertical">Empregos</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Cookies e Preferências</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Central de Ajuda</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Termos de Uso</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Privacidade</a>
+            </li>
+          </ul>
+
+          {/* COLUNA 2 */}
+          <ul className="coluna-vertical">
+            <li>
+              <a href="#coluna-vertical">Notícias</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Centro de mídia</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Aviso Legal</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Realização dos Investidores</a>
+            </li>
+            <li>
+              <a href="#coluna-vertical">Feeds</a>
+            </li>
+          </ul>
+
+          {/* COLUNA 3 (HORIZONTAL) */}
+          <ul className="coluna-horizontal">
+            <li>
+              <a href="#coluna-horizontal">Home</a>
+            </li>
+            <li>
+              <a href="#coluna-horizontal">Popular filmes</a>
+            </li>
+            <li>
+              <a href="#coluna-horizontal">Trending filmes</a>
+            </li>
+            <li>
+              <a href="#coluna-horizontal">Latest filmes</a>
+            </li>
+            <li>
+              <a href="#coluna-horizontal">About us</a>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-copy">
+          <p>&copy;Raphael Antônio & Lucas Batista</p>
+          <p>Criado por Raphael Antônio & Lucas Batista</p>
+        </div>
+      </footer>
     </main>
   );
 }

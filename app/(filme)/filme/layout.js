@@ -5,9 +5,9 @@ export default function FilmeLayout({ children }) {
   return (
     <>
       <Header variant="filme-public" showSearch={true} />
-      <div>
+      {/* <div> */}
         {children}
-      </div>
+      {/* </div> */}
     </>
   );
 }
