@@ -96,7 +96,6 @@ export default function Cadastro() {
       setTimeout(() => {
         setToken(data.tokenCadastro);
       }, 2000);
-
     } catch {
       setTipoCadastro("erro");
       setMsgCadastro("Erro interno do servidor");
@@ -129,13 +128,10 @@ export default function Cadastro() {
     formData.append("foto_perfil", foto);
 
     try {
-      const res = await fetch(
-        `/api/cadastro/uploadPhoto?token=${token}`,
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+      const res = await fetch(`/api/cadastro/uploadPhoto?token=${token}`, {
+        method: "POST",
+        body: formData,
+      });
 
       const data = await res.json();
 
@@ -151,7 +147,6 @@ export default function Cadastro() {
       setTimeout(() => {
         window.location.href = "/login";
       }, 2000);
-
     } catch {
       setTipoUpload("erro");
       setMsgUpload("Erro interno do servidor");
@@ -161,8 +156,7 @@ export default function Cadastro() {
   /* Render */
   return (
     <main className="conteudo">
-      <div className="container-login">
-
+      <div className="container-login-cadastro">
         {/* Formulário de Cadastro */}
         {!token ? (
           <form onSubmit={handleCadastro}>
@@ -227,11 +221,7 @@ export default function Cadastro() {
 
             {preview && (
               <div className="preview">
-                <img
-                  src={preview}
-                  alt="Preview"
-                  className="preview-foto"
-                />
+                <img src={preview} alt="Preview" className="preview-foto" />
               </div>
             )}
 

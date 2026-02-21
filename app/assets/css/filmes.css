@@ -470,7 +470,7 @@ img.foto_de_perfil {
 
   .botao-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 135px;
   }
 
@@ -548,7 +548,7 @@ img.foto_de_perfil {
 
   .botao-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 107px;
   }
 

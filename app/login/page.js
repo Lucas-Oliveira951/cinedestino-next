@@ -63,9 +63,9 @@ export default function Login() {
 
   return (
     <main className="conteudo">
-      <div className="container-login">
+      <div className="container-login-cadastro">
         <form onSubmit={handleLogin}>
-          <h1 className="titulo-entrar">Entrar</h1>
+          <h1 className="titulo-entrar">Entre na sua conta gratuita</h1>
 
           <label>Email</label>
           <input

@@ -35,11 +35,11 @@ h1 {
   font-weight: normal;
 }
 
-.container-login {
+.container-login-cadastro {
   background-color: #1c1c1cf1;
   padding: 30px;
   border-radius: 15px;
-  width: 350px;
+  width: 358px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -270,11 +270,11 @@ input::placeholder {
   object-fit: cover;
 }
 
-label {
+/* label {
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
   font-size: 22px;
   font-weight: 600;
   justify-content: center;
-}
+} */

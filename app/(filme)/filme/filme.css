@@ -445,6 +445,7 @@ img.poster-imagem {
   .botao-menu {
     display: block;
     font-size: 28px;
+    position: fixed;
   }
 
   .menu-lateral {
@@ -563,6 +564,7 @@ img.poster-imagem {
   .botao-menu {
     display: block;
     right: 47px;
+    position: fixed;
   }
 
   .menu-lateral {
