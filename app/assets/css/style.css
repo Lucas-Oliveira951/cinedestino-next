@@ -8,21 +8,16 @@ body {
   height: auto;
 }
 
-.titulo-principal {
-  color: var(--text-color);
-  margin: 20px 7%;
-}
-
 h1.titulo-principal-desktop {
   display: flex;
-  margin: 20px 1%;
+  margin: 20px 7%;
   color: var(--text-color);
 }
 
 .header-home {
   display: flex;
   justify-content: space-between;
-  padding-inline: 1%;
+  padding-inline: 16px;
 }
 
 .menu-home {
@@ -179,6 +174,8 @@ i.fa-solid.fa-right-from-bracket {
   padding: 10px 15px;
   cursor: pointer;
   transition: 0.5s ease;
+  width: 60px;
+  height: 52px;
 }
 
 .botao-menu:hover {

@@ -571,7 +571,7 @@ body.ativo {
     display: none;
   }
 
-  .botao-menu {
+  .header-public .botao-menu {
     display: block;
     font-size: 28px;
     right: 40px;

@@ -287,6 +287,8 @@ img.foto_de_perfil {
   padding: 10px 15px;
   cursor: pointer;
   transition: 0.5s ease;
+  width: 60px;
+  height: 52px;
 }
 
 .botao-menu:hover {

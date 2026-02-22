@@ -230,7 +230,7 @@
   transform: translateX(5px) rotate(5deg);
 }
 
-.botao-menu {
+.header-filme-public .botao-menu {
   background-color: var(--secundary-color);
   color: var(--text-color);
   position: fixed;
@@ -246,13 +246,13 @@
   display: none;
 }
 
-.botao-menu:hover {
+.header-filme-public .botao-menu:hover {
   background-color: var(--text-color);
   color: var(--secundary-color);
   transition: 1s;
 }
 
-.botao-menu.ativo {
+.header-filme-public .botao-menu.ativo {
   right: 311px;
   z-index: 55;
 }
@@ -375,7 +375,6 @@ img.poster-imagem {
 @media (min-width: 710px) and (max-width: 1133px) {
   body {
     background-size: cover;
-    background-position: center;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -385,7 +384,7 @@ img.poster-imagem {
     display: none;
   }
 
-  .titulo-principal-desktop {
+  .header-filme-public .titulo-principal-desktop {
     display: none;
   }
 
@@ -419,11 +418,6 @@ img.poster-imagem {
     display: none;
   }
 
-  .titulo-principal {
-    color: var(--text-color);
-    margin: 20px 7%;
-  }
-
   .nav-list {
     display: none;
   }
@@ -442,7 +436,7 @@ img.poster-imagem {
     display: block;
   }
 
-  .botao-menu {
+  .header-filme-public .botao-menu {
     display: block;
     font-size: 28px;
     position: fixed;
@@ -494,10 +488,6 @@ img.poster-imagem {
 /* Responsividade versão mobile */
 
 @media (min-width: 370px) and (max-width: 710px) {
-  body {
-    background-position: center;
-  }
-
   img.foto_de_perfil_desktop {
     display: none;
   }
@@ -507,7 +497,7 @@ img.poster-imagem {
     display: none;
   }
 
-  .titulo-principal-desktop {
+  .header-filme-public .titulo-principal-desktop {
     display: none;
   }
 
@@ -538,11 +528,6 @@ img.poster-imagem {
     display: flex;
   }
 
-  .titulo-principal {
-    color: var(--text-color);
-    margin: 20px 7%;
-  }
-
   .nav-list {
     display: none;
   }
@@ -561,7 +546,7 @@ img.poster-imagem {
     display: block;
   }
 
-  .botao-menu {
+  .header-filme-public .botao-menu {
     display: block;
     right: 47px;
     position: fixed;
@@ -584,7 +569,7 @@ img.poster-imagem {
     height: 80vh;
   }
 
-  .poster img {
+  img.poster-imagem {
     width: 150px;
   }
 
