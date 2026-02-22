@@ -12,17 +12,15 @@ Este projeto implementa um sistema completo de cadastro e login de usuários uti
 
 📑 Cadastro de Usuário
 
-<img width="357" height="438" alt="Captura de tela 2026-02-22 191653" src="https://github.com/user-attachments/assets/b82a2c67-ba1e-4b6f-a0ff-4f9158ec9eaa" />
-
 O sistema permite que novos usuários se cadastrem informando um endereço de e-mail e uma senha.
 
 Para garantir a segurança das credenciais:
 
 -As senhas não são armazenadas em texto puro
-
 -É utilizado bcryptjs para criptografia
-
 -Apenas o hash da senha é salvo no banco de dados
+
+<img width="357" height="438" alt="Captura de tela 2026-02-22 191653" src="https://github.com/user-attachments/assets/b82a2c67-ba1e-4b6f-a0ff-4f9158ec9eaa" />
 
 Após o cadastro, o sistema pode gerar um token temporário para validar etapas específicas do processo, impedindo acessos indevidos.
 
