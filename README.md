@@ -35,6 +35,7 @@ A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas
 Isso permite que a imagem seja facilmente recuperada e exibida sempre que o usuário estiver autenticado no sistema.
 
 Caso o usuário não defina uma foto de perfil, o sistema automaticamente define uma imagem padrão.
+
 ---
 🎲 Banco de Dados
 
