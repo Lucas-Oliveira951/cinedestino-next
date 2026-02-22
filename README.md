@@ -17,7 +17,9 @@ O sistema permite que novos usuários se cadastrem informando um endereço de e-
 Para garantir a segurança das credenciais:
 
 -As senhas não são armazenadas em texto puro
+
 -É utilizado bcryptjs para criptografia
+
 -Apenas o hash da senha é salvo no banco de dados
 
 <img width="357" height="438" alt="Captura de tela 2026-02-22 191653" src="https://github.com/user-attachments/assets/b82a2c67-ba1e-4b6f-a0ff-4f9158ec9eaa" />
@@ -33,4 +35,24 @@ A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas
 Isso permite que a imagem seja facilmente recuperada e exibida sempre que o usuário estiver autenticado no sistema.
 
 Caso o usuário não defina uma foto de perfil, o sistema automaticamente define uma imagem padrão.
+---
+🎲 Banco de Dados
+
+O banco de dados do projeto é hospedado no Supabase, utilizando PostgreSQL como base.
+
+Nele são armazenadas todas as informações essenciais do usuário, incluindo:
+
+- **ID do usuário**
+
+- **Nome**
+
+- **E-mail**
+
+- **Hash da senha**
+
+- **URL da foto de perfil**
+
+- **Token de login**
+
+- **Data de expiração do token**
 
