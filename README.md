@@ -16,11 +16,11 @@ O sistema permite que novos usuários se cadastrem informando um endereço de e-
 
 Para garantir a segurança das credenciais:
 
--As senhas não são armazenadas em texto puro
+- **As senhas não são armazenadas em texto puro**
 
--É utilizado bcryptjs para criptografia
+- **É utilizado bcryptjs para criptografia**
 
--Apenas o hash da senha é salvo no banco de dados
+- **Apenas o hash da senha é salvo no banco de dados**
 
 <img width="357" height="438" alt="Captura de tela 2026-02-22 191653" src="https://github.com/user-attachments/assets/b82a2c67-ba1e-4b6f-a0ff-4f9158ec9eaa" />
 
