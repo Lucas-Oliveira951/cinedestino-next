@@ -22,9 +22,10 @@ body {
   gap: 24px;
 }
 
-.titulo-principal-desktop {
+h1.titulo-principal-desktop {
   display: flex;
-  margin: 20px 7%;
+  margin: 20px 1%;
+  color: var(--text-color);
 }
 
 .btn-entrar {
