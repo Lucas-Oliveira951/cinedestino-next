@@ -24,3 +24,13 @@ Para garantir a segurança das credenciais:
 
 Após o cadastro, o sistema pode gerar um token temporário para validar etapas específicas do processo, impedindo acessos indevidos.
 
+🤳🏽 Foto de Perfil e Armazenamento
+
+A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas a URL pública da imagem é salva no banco de dados (PostgreSQL via Supabase).
+
+<img width="1871" height="435" alt="Captura de tela 2026-02-22 192147" src="https://github.com/user-attachments/assets/a28a0e2c-4f54-4372-8d2d-50c655356bdd" />
+
+Isso permite que a imagem seja facilmente recuperada e exibida sempre que o usuário estiver autenticado no sistema.
+
+Caso o usuário não defina uma foto de perfil, o sistema automaticamente define uma imagem padrão.
+
