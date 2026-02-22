@@ -39,7 +39,7 @@ h1 {
   background-color: #1c1c1cf1;
   padding: 30px;
   border-radius: 15px;
-  width: 358px;
+  width: 329px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -269,12 +269,3 @@ input::placeholder {
   border-radius: 100%;
   object-fit: cover;
 }
-
-/* label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
-  font-size: 22px;
-  font-weight: 600;
-  justify-content: center;
-} */
