@@ -1,3 +1,4 @@
+//Menu versão mobile(utilizado em todas as páginas)
 "use client";
 
 import { useState } from "react";
@@ -45,7 +46,10 @@ export default function MenuMobile({ variant = "private" }) {
           </li>
 
           <li>
-            <a href={isPublic ? "/sobre" : "/sistema/sobre"} onClick={closeMenu}>
+            <a
+              href={isPublic ? "/sobre" : "/sistema/sobre"}
+              onClick={closeMenu}
+            >
               <i className="fa-solid fa-circle-info"></i>Sobre
             </a>
           </li>

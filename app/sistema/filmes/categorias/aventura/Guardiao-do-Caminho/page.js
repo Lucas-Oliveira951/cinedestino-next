@@ -4,13 +4,14 @@ export const metadata = {
 
 export default function GuardiaoDoCaminho() {
   return (
-    <main 
-        className="filme-page"
-        style={{backgroundImage: "url('/filmes-background/Aventura/Guardiao-do-Caminho/Guardião\ do\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+    <main
+      className="filme-page"
+      style={{
+        backgroundImage:
+          "url('/filmes-background/Aventura/Guardiao-do-Caminho/Guardião\ do\ Caminho\ -\ background\ \(Desktop\ \ Versão\).jpg')",
+      }}
     >
-
       <div className="container-poster">
-
         <div className="poster">
           <img
             src="/assets/Image/Guardião do Caminho.jpg"
@@ -25,21 +26,26 @@ export default function GuardiaoDoCaminho() {
           <span>1h10 min | 🛡️ Aventura / Batalha</span>
 
           <div className="nota-filme">
-            <p><i className="fa-solid fa-star"></i> 8,2/10</p>
+            <p>
+              <i className="fa-solid fa-star"></i> 8,2/10
+            </p>
           </div>
 
           <p className="sinopse">
-            Um jovem aventureiro precisa proteger um símbolo religioso de saqueadores.
+            Um jovem aventureiro precisa proteger um símbolo religioso de
+            saqueadores.
           </p>
 
           <div className="buttons">
-            <a href="#" className="button-trailer">Ver Trailer</a>
-            <a href="#" className="button-quiz">Ver Agora</a>
+            <a href="#" className="button-trailer">
+              Ver Trailer
+            </a>
+            <a href="#" className="button-quiz">
+              Ver Agora
+            </a>
           </div>
         </div>
-
       </div>
-
     </main>
-  )
+  );
 }

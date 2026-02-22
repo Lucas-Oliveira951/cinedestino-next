@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* CSS global para todas as paginas */
+
 :root {
   --primary-color: #0b0b0b;
   --secundary-color: #1c1c1c;

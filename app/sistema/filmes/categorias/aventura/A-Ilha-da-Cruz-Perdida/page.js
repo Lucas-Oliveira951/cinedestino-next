@@ -4,13 +4,14 @@ export const metadata = {
 
 export default function AIlhaDaCruzPerdida() {
   return (
-    <main 
-        className="filme-page"
-        style={{backgroundImage: "url('/filmes-background/Aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg')"}}
+    <main
+      className="filme-page"
+      style={{
+        backgroundImage:
+          "url('/filmes-background/Aventura/A-Ilha-da-Cruz-Perdida/A\ Ilha\ da\ Cruz\ Perdida\ -\ background\ \(Desktop\ \ Versão\).jpg')",
+      }}
     >
-
       <div className="container-poster">
-
         <div className="poster">
           <img
             src="/assets/Image/A ilha da Cruz Perdida.jpg"
@@ -25,7 +26,9 @@ export default function AIlhaDaCruzPerdida() {
           <span>1h23 min | 🗡️ Aventura/ Vitória</span>
 
           <div className="nota-filme">
-            <p><i className="fa-solid fa-star"></i> 8,2/10</p>
+            <p>
+              <i className="fa-solid fa-star"></i> 8,2/10
+            </p>
           </div>
 
           <p className="sinopse">
@@ -33,13 +36,15 @@ export default function AIlhaDaCruzPerdida() {
           </p>
 
           <div className="buttons">
-            <a href="#" className="button-trailer">Ver Trailer</a>
-            <a href="#" className="button-quiz">Ver Agora</a>
+            <a href="#" className="button-trailer">
+              Ver Trailer
+            </a>
+            <a href="#" className="button-quiz">
+              Ver Agora
+            </a>
           </div>
         </div>
-
       </div>
-
     </main>
-  )
+  );
 }

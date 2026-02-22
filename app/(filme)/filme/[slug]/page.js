@@ -10,6 +10,7 @@ export function generateStaticParams() {
   }));
 }
 
+//Gerador de metadados dinâmicos
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 

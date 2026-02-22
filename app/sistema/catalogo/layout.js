@@ -2,6 +2,7 @@ import Header from "../../sistema/components/header";
 import { cookies } from "next/headers";
 import "./catalogo.css";
 
+//Titulo da página
 export const metadata = {
   title: "Catálogo",
 };

@@ -31,6 +31,7 @@ const filmesLancamentos = ordemLancamentos
   .map((slug) => todosFilmes.find((f) => f.slug === slug))
   .filter(Boolean);
 
+//Mapa de categorias para acessar título e descrição pela chave.
 const CATEGORIAS = {
   inspiracao: {
     titulo: "Inspiração",
@@ -69,7 +70,6 @@ export default function CatalogoPage() {
 
   const categoria = CATEGORIAS[categoriaKey];
 
-  /* ✅ CORREÇÃO AQUI */
   const filmesDaCategoria = filmesCategoria.filter(
     (filme) => filme.categoria === categoriaKey,
   );

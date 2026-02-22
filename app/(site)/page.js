@@ -2,15 +2,15 @@ import Link from "next/link";
 import { filmes } from "@/app/data/filmes";
 
 export default function Home() {
-    const primeiraLinha = filmes.slice(0, 5);
-    const segundaLinha = filmes.slice(5, 10);
+  const primeiraLinha = filmes.slice(0, 5);
+  const segundaLinha = filmes.slice(5, 10);
 
-    const grupos = [];
+  const grupos = [];
 
-    for(let i = 0; i < filmes.length; i += 3) {
-      grupos.push(filmes.slice(i, i + 3));
-    }
-
+  for (let i = 0; i < filmes.length; i += 3) {
+    grupos.push(filmes.slice(i, i + 3));
+  }
+  //versao publica da página inicial
   return (
     <>
       <main className="conteudo-pagina-inicial">
@@ -53,90 +53,82 @@ export default function Home() {
                   <h1 className="filme-title">{filme.titulo}</h1>
                   <span className="filme-ano">2025</span>
                 </div>
-              </div>        
+              </div>
             ))}
           </article>
         </section>
 
         <section className="secao-filmes2">
-            <article className="filmes2">
-                {segundaLinha.map((filme) => (
-                    <div className="filme-card" key={filme.slug}>
-                        <div className="poster">
-                            <Link href={`/filme/${filme.slug}`}>
-                            <img 
-                              src={filme.imagem} 
-                              alt={filme.titulo} 
-                            />
-                            </Link>
-                        </div>
-                        <div className="filme-descricao">
-                            <h1 className="filme-title">{filme.titulo}</h1>
-                            <span className="filmes-ano">2025</span>
-                        </div>
-                    </div>
-                ))}
-            </article>
+          <article className="filmes2">
+            {segundaLinha.map((filme) => (
+              <div className="filme-card" key={filme.slug}>
+                <div className="poster">
+                  <Link href={`/filme/${filme.slug}`}>
+                    <img src={filme.imagem} alt={filme.titulo} />
+                  </Link>
+                </div>
+                <div className="filme-descricao">
+                  <h1 className="filme-title">{filme.titulo}</h1>
+                  <span className="filmes-ano">2025</span>
+                </div>
+              </div>
+            ))}
+          </article>
         </section>
 
-{grupos.map((grupo, index) => (
-  <section
-    key={index}
-    className={`secao-filmes-mobile 
+        {grupos.map((grupo, index) => (
+          <section
+            key={index}
+            className={`secao-filmes-mobile 
       ${index % 2 !== 0 ? "secao-filmes-mobile2" : ""}
       ${grupo.length === 1 ? "secao-filmes-mobile3" : ""}
     `}
-  >
-    {index === 0 && (
-      <h1 className="secao-title-mobile">Lançamento</h1>
-    )}
+          >
+            {index === 0 && <h1 className="secao-title-mobile">Lançamento</h1>}
 
-    <article
-      className={
-        grupo.length === 1
-          ? "filmes-mobile filmes-mobile3"
-          : "filmes-mobile"
-      }
-    >
-      {grupo.map((filme) => (
-        <div
-          className={
-            grupo.length === 1
-              ? "filme-card-mobile filme-card-mobile3"
-              : "filme-card-mobile"
-          }
-          key={filme.slug}
-        >
-          <div className={
-            grupo.length === 1
-              ? "poster-mobile poster-mobile3"
-              : "poster-mobile"
-          }>
-            <Link href={`/filme/${filme.slug}`}>
-              <img
-                src={filme.imagem}
-                alt={filme.titulo}
-              />
-            </Link>
-          </div>
+            <article
+              className={
+                grupo.length === 1
+                  ? "filmes-mobile filmes-mobile3"
+                  : "filmes-mobile"
+              }
+            >
+              {grupo.map((filme) => (
+                <div
+                  className={
+                    grupo.length === 1
+                      ? "filme-card-mobile filme-card-mobile3"
+                      : "filme-card-mobile"
+                  }
+                  key={filme.slug}
+                >
+                  <div
+                    className={
+                      grupo.length === 1
+                        ? "poster-mobile poster-mobile3"
+                        : "poster-mobile"
+                    }
+                  >
+                    <Link href={`/filme/${filme.slug}`}>
+                      <img src={filme.imagem} alt={filme.titulo} />
+                    </Link>
+                  </div>
 
-          <div className={
-            grupo.length === 1
-              ? "filme-descricao-mobile filme-descricao"
-              : "filme-descricao-mobile"
-          }>
-            <h1 className="filme-title-mobile">
-              {filme.titulo}
-            </h1>
-            <span className="filme-ano-mobile">
-              {filme.ano}
-            </span>
-          </div>
-        </div>
-      ))}
-    </article>
-  </section>
-))}
+                  <div
+                    className={
+                      grupo.length === 1
+                        ? "filme-descricao-mobile filme-descricao"
+                        : "filme-descricao-mobile"
+                    }
+                  >
+                    <h1 className="filme-title-mobile">{filme.titulo}</h1>
+                    <span className="filme-ano-mobile">{filme.ano}</span>
+                  </div>
+                </div>
+              ))}
+            </article>
+          </section>
+        ))}
 
         {/* FOOTER Desktop versão */}
 

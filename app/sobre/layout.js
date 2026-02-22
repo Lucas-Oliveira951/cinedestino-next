@@ -1,6 +1,7 @@
-import Header from "../sistema/components/header"
+import Header from "../sistema/components/header";
 import "./sobre.css";
 
+//Titulo da Página
 export const metadata = {
   title: "Sobre",
 };

@@ -1,3 +1,4 @@
+//Layout para os filmes
 import "@/app/assets/css/filmes.css";
 import { cookies } from "next/headers";
 import Header from "../../sistema/components/header";

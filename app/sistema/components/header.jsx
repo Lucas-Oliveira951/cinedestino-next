@@ -1,3 +1,4 @@
+//Header global
 import HeaderMobileFilme from "./HeaderMobileFilme";
 import MenuMobile from "./MenuMobile";
 

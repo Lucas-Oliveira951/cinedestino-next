@@ -1,8 +1,8 @@
-export default function HeaderMobileFilme({ 
-  fotoPerfil = null, 
-  variant = "private" 
+//Header versão mobile(utilizado nas páginas dos filmes)
+export default function HeaderMobileFilme({
+  fotoPerfil = null,
+  variant = "private",
 }) {
-
   const hasUser = !!fotoPerfil;
 
   return (
@@ -13,7 +13,10 @@ export default function HeaderMobileFilme({
         <nav className="menu">
           <ul className="nav-list">
             <li>
-              <a href={variant === "public" ? "/" : "/sistema"} className="item-list">
+              <a
+                href={variant === "public" ? "/" : "/sistema"}
+                className="item-list"
+              >
                 <i className="fa-solid fa-house"></i>Página inicial
               </a>
             </li>
@@ -64,9 +67,7 @@ export default function HeaderMobileFilme({
 
             {variant === "public" && (
               <li>
-                <a href="/login">
-                  Entrar
-                </a>
+                <a href="/login">Entrar</a>
               </li>
             )}
           </ul>

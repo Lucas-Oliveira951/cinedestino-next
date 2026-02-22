@@ -1,5 +1,8 @@
-import { Nunito, Righteous } from "next/font/google";
+//Layout global para todas as páginas do site
 import "./globals.css";
+
+//Import de fontes do google
+import { Nunito, Righteous } from "next/font/google";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -14,9 +17,10 @@ const righteous = Righteous({
   variable: "--font-righteous",
 });
 
+//Configurador de template de título global
 export const metadata = {
   title: {
-    default: "CineDestino",
+    default: "CineDestino", // Título usado quando a página não definir um título
     template: "Cinedestino - %s",
   },
 };
