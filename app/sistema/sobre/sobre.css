@@ -290,6 +290,8 @@ img.foto_de_perfil {
   transition: 0.5s ease;
   width: 60px;
   height: 52px;
+  width: 60px;
+  height: 52px;
 }
 
 .botao-menu:hover {

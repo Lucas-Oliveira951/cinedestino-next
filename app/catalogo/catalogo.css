@@ -270,6 +270,8 @@ img.foto_de_perfil_mobile {
   position: fixed;
   right: 67px;
   top: 13px;
+  width: 60px;
+  height: 52px;
 }
 
 .botao-menu:hover {
