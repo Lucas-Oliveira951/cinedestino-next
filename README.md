@@ -60,6 +60,10 @@ Nele são armazenadas todas as informações essenciais do usuário, incluindo:
 
 No processo de login, o usuário informa seu e-mail e senha.
 
+<img width="446" height="431" alt="Captura de tela 2026-02-23 102941" src="https://github.com/user-attachments/assets/6ba865c4-57b1-448d-9915-39e57a4827d5" />
+
+<img width="452" height="510" alt="Captura de tela 2026-02-23 103059" src="https://github.com/user-attachments/assets/f2f04c3d-3a45-44c0-979b-a0dbe8dabb77" />
+
 O sistema:
 
 Busca o usuário no banco de dados
@@ -72,17 +76,18 @@ Busca o usuário no banco de dados
 
 Esse token é:
 
-Salvo no banco de dados (Supabase/PostgreSQL)
+- **Salvo no banco de dados (Supabase/PostgreSQL)**
 
-Enviado ao navegador por meio de um cookie seguro
+- **Enviado ao navegador por meio de um cookie seguro**
 
 O cookie é configurado com as flags:
 
-HttpOnly (impede acesso via JavaScript)
+- **HttpOnly (impede acesso via JavaScript)**
 
-Secure (transmitido apenas em HTTPS em produção)
+- **Secure (transmitido apenas em HTTPS em produção)**
 
-SameSite: "lax" (proteção contra CSRF)
+- **SameSite: "lax" (proteção contra CSRF)**
 
 Se o e-mail ou senha forem preenchidos incorretamente, o sistema retorna erro de autenticação.
 
+<img width="458" height="521" alt="Captura de tela 2026-02-23 103144" src="https://github.com/user-attachments/assets/e3f5b124-733a-45f5-b798-f2e8d963d957" />
