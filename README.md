@@ -148,43 +148,34 @@ No processo de logout:
 
 Dessa forma, o acesso do usuário é encerrado de forma completa e segura.
 
-🧠 Estrutura Atual com Next.js 16.1.4 (Turbopack)
+Assim, o sistema oferece um processo de autenticação seguro, organizado e escalável, utilizando criptografia de senhas, autenticação baseada em token, armazenamento em nuvem com Supabase, rate limit contra ataques de força bruta e proteção de rotas com middleware do Next.js 16.1.4.
 
-A versão atual do projeto utiliza Next.js 16.1.4, aproveitando recursos modernos como:
+## 🧠 Estrutura
 
-- **App Router**
+O projeto é dividido em duas áreas principais: área pública e área privada.
 
-- **Rotas dinâmicas com slug**
+### 🔓 Área Pública
 
-- **generateStaticParams para geração estática**
-
-- **generateMetadata para SEO dinâmico**
-
-- **Middleware para proteção de rotas**
-
-Organização modular por grupos de rotas
-
-Na área pública do projeto, os filmes utilizam rota dinâmica no padrão:
+Na área pública, os usuários podem navegar pelo catálogo de filmes e acessar a página individual de cada filme.
+Cada filme possui sua própria rota dinâmica no formato:
 
 /filme/[slug]
 
-Cada filme público possui sua própria página gerada dinamicamente com base nos dados armazenados.
+Isso permite que cada conteúdo tenha uma página exclusiva, gerada com base nas informações do filme.
 
-Já na área privada (/sistema), cada filme também possui sua página individual, protegida por middleware, garantindo que apenas usuários autenticados tenham acesso ao conteúdo restrito.
+### 🔐 Área Privada
 
-Essa estrutura permite:
+Na área privada (/sistema), o acesso é restrito a usuários autenticados.
 
-- **Separação clara entre área pública e privada**
+Dentro dessa área, cada filme também possui sua própria página individual, permitindo uma navegação organizada e separada da parte pública do site.
 
-- **Melhor organização de código**
+Essa divisão garante:
 
-- **Escalabilidade**
+- **Melhor organização da aplicação**
 
-- **SEO otimizado para páginas públicas**
+- **Separação clara entre conteúdos públicos e restritos**
 
-- **Segurança nas rotas internas**
-
-Dessa forma, o sistema oferece um processo de autenticação seguro, organizado e escalável, utilizando criptografia de senhas, autenticação baseada em token, armazenamento em nuvem com Supabase, rate limit contra ataques de força bruta e proteção de rotas com middleware do Next.js 16.1.4.
+- **Estrutura escalável**
 
 ## 🛠️ Tecnologias Utilizadas
 
