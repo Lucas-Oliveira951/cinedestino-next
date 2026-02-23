@@ -150,7 +150,7 @@ Dessa forma, o acesso do usuário é encerrado de forma completa e segura.
 
 Assim, o sistema oferece um processo de autenticação seguro, organizado e escalável, utilizando criptografia de senhas, autenticação baseada em token, armazenamento em nuvem com Supabase, rate limit contra ataques de força bruta e proteção de rotas com middleware do Next.js 16.1.4.
 
-## 🧠 Estrutura
+## 🧠 Estrutura do projeto
 
 O projeto é dividido em duas áreas principais: área pública e área privada.
 
