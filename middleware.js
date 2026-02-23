@@ -11,10 +11,5 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: [
-    "/sistema/:path*",
-    "/sistema/filmes/:path*",
-    "/sistema/catalogo/:path*",
-    "/sistema/sobre/:path*",
-  ],
+  matcher: ["/sistema/:path*"],
 };
