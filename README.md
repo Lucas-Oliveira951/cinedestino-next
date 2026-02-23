@@ -148,6 +148,42 @@ No processo de logout:
 
 Dessa forma, o acesso do usuário é encerrado de forma completa e segura.
 
+🧠 Estrutura Atual com Next.js 16.1.4 (Turbopack)
+
+A versão atual do projeto utiliza Next.js 16.1.4, aproveitando recursos modernos como:
+
+- **App Router**
+
+- **Rotas dinâmicas com slug**
+
+- **generateStaticParams para geração estática**
+
+- **generateMetadata para SEO dinâmico**
+
+- **Middleware para proteção de rotas**
+
+Organização modular por grupos de rotas
+
+Na área pública do projeto, os filmes utilizam rota dinâmica no padrão:
+
+/filme/[slug]
+
+Cada filme público possui sua própria página gerada dinamicamente com base nos dados armazenados.
+
+Já na área privada (/sistema), cada filme também possui sua página individual, protegida por middleware, garantindo que apenas usuários autenticados tenham acesso ao conteúdo restrito.
+
+Essa estrutura permite:
+
+- **Separação clara entre área pública e privada**
+
+- **Melhor organização de código**
+
+- **Escalabilidade**
+
+- **SEO otimizado para páginas públicas**
+
+- **Segurança nas rotas internas**
+
 Dessa forma, o sistema oferece um processo de autenticação seguro, organizado e escalável, utilizando criptografia de senhas, autenticação baseada em token, armazenamento em nuvem com Supabase, rate limit contra ataques de força bruta e proteção de rotas com middleware do Next.js 16.1.4.
 
 ## 🛠️ Tecnologias Utilizadas
