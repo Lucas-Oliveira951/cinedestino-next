@@ -28,10 +28,9 @@ Após o cadastro, o sistema pode gerar um token temporário para validar etapas 
 
 ### 🤳🏽 Foto de Perfil e Armazenamento
 
-A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas a URL pública da imagem é salva no banco de dados (PostgreSQL via Supabase).
-
 <img width="464" height="483" alt="Captura de tela 2026-02-23 111803" src="https://github.com/user-attachments/assets/ae7ee2bb-5668-4617-b1b7-1f9441b24c1a" />
 
+A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas a URL pública da imagem é salva no banco de dados (PostgreSQL via Supabase).
 
 <img width="1612" height="582" alt="Captura de tela 2026-02-23 094407" src="https://github.com/user-attachments/assets/ec77ee91-c7da-4186-ac1c-4b5b47967215" />
 
@@ -136,9 +135,9 @@ Esse mecanismo garante que apenas usuários autenticados possam acessar áreas r
 
 No processo de logout:
 
-O token de login é removido do banco de dados
+- **O token de login é removido do banco de dados**
 
-O cookie é invalidado
+- **O cookie é invalidado**
 
 Dessa forma, o acesso do usuário é encerrado de forma completa e segura.
 
