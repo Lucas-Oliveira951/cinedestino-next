@@ -56,7 +56,7 @@ Nele são armazenadas todas as informações essenciais do usuário, incluindo:
 
 - **Data de expiração do token**
 
-🔐 Login e Autenticação por Token
+***🔐 Login e Autenticação por Token
 
 No processo de login, o usuário informa seu e-mail e senha.
 
@@ -91,3 +91,15 @@ O cookie é configurado com as flags:
 Se o e-mail ou senha forem preenchidos incorretamente, o sistema retorna erro de autenticação.
 
 <img width="458" height="521" alt="Captura de tela 2026-02-23 103144" src="https://github.com/user-attachments/assets/e3f5b124-733a-45f5-b798-f2e8d963d957" />
+
+***🚦 Rate Limit (Proteção contra força bruta)
+
+<img width="450" height="520" alt="Captura de tela 2026-02-23 104055" src="https://github.com/user-attachments/assets/4d54f67d-af1e-418f-af45-8c574aaa070c" />
+
+O sistema possui um rate limit básico por IP, permitindo:
+
+- **5 tentativas de login**
+
+- **Dentro de uma janela de 1 minuto**
+
+Caso o limite seja excedido, o sistema retorna status 429 (Too Many Requests). Essa proteção reduz riscos de ataques de força bruta.
