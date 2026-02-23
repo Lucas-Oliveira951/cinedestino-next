@@ -1,16 +1,16 @@
-##Cinedestino 🎬
+## Cinedestino 🎬
 ---
 Cinedestino é uma plataforma fictícia de filmes católicos, com conteúdos criados com auxílio de IA (ChatGPT para roteiros e descrições e Gemini para imagens).O projeto foi desenvolvido em dupla com meu amigo e colega de curso Lucas Batista, e atualmente está em sua versão mais moderna utilizando Next.js 16.1.4 (Turbopack). Com toda certeza esse projeto é um marco enorme na minha jornada como desenvolvedor, simplesmente é meu primeiro projeto que possui uma versão responsiva para Desktops, Tablets e Celulares.
 
-##📌 Sobre o Projeto
+## 📌 Sobre o Projeto
 ---
 Cinedestino é um site de catálogo de filmes católicos fictícios. O sistema é composto por:
 
-###🛠️ Sistema de cadastro e Login com autenticação por token
+### 🛠️ Sistema de cadastro e Login com autenticação por token
 
 Este projeto implementa um sistema completo de cadastro e login de usuários utilizando autenticação baseada em token, sem dependência de sessões tradicionais. O objetivo é garantir segurança, escalabilidade e organização no controle de acesso.
 
-###📑 Cadastro de Usuário
+### 📑 Cadastro de Usuário
 
 O sistema permite que novos usuários se cadastrem informando um endereço de e-mail e uma senha.
 
@@ -26,7 +26,7 @@ Para garantir a segurança das credenciais:
 
 Após o cadastro, o sistema pode gerar um token temporário para validar etapas específicas do processo, impedindo acessos indevidos.
 
-###🤳🏽 Foto de Perfil e Armazenamento
+### 🤳🏽 Foto de Perfil e Armazenamento
 
 A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas a URL pública da imagem é salva no banco de dados (PostgreSQL via Supabase).
 
@@ -36,7 +36,7 @@ Isso permite que a imagem seja facilmente recuperada e exibida sempre que o usu�
 
 Caso o usuário não defina uma foto de perfil, o sistema automaticamente define uma imagem padrão.
 
-###🎲 Banco de Dados
+### 🎲 Banco de Dados
 
 O banco de dados do projeto é hospedado no Supabase, utilizando PostgreSQL como base.
 
