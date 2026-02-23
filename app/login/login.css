@@ -19,6 +19,7 @@ h1.titulo-entrar {
 .container-login-cadastro {
   background-color: #1c1c1cf1;
   padding: 30px;
+  width: 410px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
