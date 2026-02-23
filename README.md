@@ -62,8 +62,6 @@ No processo de login, o usuário informa seu e-mail e senha.
 
 <img width="446" height="431" alt="Captura de tela 2026-02-23 102941" src="https://github.com/user-attachments/assets/6ba865c4-57b1-448d-9915-39e57a4827d5" />
 
-<img width="452" height="510" alt="Captura de tela 2026-02-23 103059" src="https://github.com/user-attachments/assets/f2f04c3d-3a45-44c0-979b-a0dbe8dabb77" />
-
 O sistema:
 
 Busca o usuário no banco de dados
@@ -87,6 +85,8 @@ O cookie é configurado com as flags:
 - **Secure (transmitido apenas em HTTPS em produção)**
 
 - **SameSite: "lax" (proteção contra CSRF)**
+
+<img width="452" height="510" alt="Captura de tela 2026-02-23 103059" src="https://github.com/user-attachments/assets/f2f04c3d-3a45-44c0-979b-a0dbe8dabb77" />
 
 Se o e-mail ou senha forem preenchidos incorretamente, o sistema retorna erro de autenticação.
 
