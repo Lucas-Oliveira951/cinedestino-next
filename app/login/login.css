@@ -20,7 +20,6 @@ h1.titulo-entrar {
   background-color: #1c1c1cf1;
   padding: 30px;
   border-radius: 15px;
-  width: 329px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -121,11 +120,10 @@ input#Button:hover {
     font-weight: normal;
   }
 
-  .container-login {
+  .container-login-cadastro {
     background-color: #1c1c1cf1;
     padding: 30px;
     border-radius: 15px;
-    width: 350px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 
@@ -198,11 +196,11 @@ input#Button:hover {
     font-size: 20px;
   }
 
-  .container-login {
+  .container-login-cadastro {
     background-color: #1c1c1cf1;
     padding: 30px;
     border-radius: 15px;
-    width: 269px;
+    width: 329px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 

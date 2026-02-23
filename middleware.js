@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
 
 export function middleware(request) {
   const token = request.cookies.get("token_login")?.value;
