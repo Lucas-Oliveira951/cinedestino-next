@@ -125,3 +125,88 @@ Rotas protegidas:
 - **/sistema/sobre/***
 
 Esse mecanismo garante que apenas usuários autenticados possam acessar áreas restritas do sistema.
+
+### 🚪 LOGOUT
+
+No processo de logout:
+
+O token de login é removido do banco de dados
+
+O cookie é invalidado
+
+Dessa forma, o acesso do usuário é encerrado de forma completa e segura.
+
+Dessa forma, o sistema oferece um processo de autenticação seguro, organizado e escalável, utilizando criptografia de senhas, autenticação baseada em token, armazenamento em nuvem com Supabase, rate limit contra ataques de força bruta e proteção de rotas com middleware do Next.js 16.1.4.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+
+- **CSS3**
+
+- **JavaScript**
+
+- **Next.js 16.1.4 (Turbopack)**
+
+- **PostgreSQL (via Supabase)**
+
+- **Supabase Storage**
+
+- **Figma (prototipação do design)**
+
+- **ChatGPT (criação dos filmes e auxílio técnico)**
+
+- **Gemini IA (criação das imagens)**
+
+## 📖 Aprendizados
+
+Durante o desenvolvimento, pratiquei e aprimorei:
+
+- **Trabalho em equipe**
+
+- **Organização e administração do projeto**
+
+- **Integração entre lógica de programação e design de interface**
+
+- **Organização e clareza no fluxo do código**
+
+- **Autenticação baseada em token**
+
+- **Proteção de rotas com middleware**
+
+- **Implementação de rate limit**
+
+- **Integração com PostgreSQL via Supabase**
+
+Além da parte técnica, também desenvolvi algumas soft skills:
+
+- **Organização e atenção aos detalhes**
+
+- **Pensamento lógico aliado à criatividade**
+
+- **Persistência na resolução de erros**
+
+- **Clareza na apresentação do projeto**
+
+## 🎨 Design
+
+O layout foi projetado no Figma, priorizando:
+
+- **Interface limpa, objetiva e simples**
+
+- **Facilidade de uso**
+
+- **Boa experiência do usuário (UX)**
+
+- **Responsividade para Desktop, Tablet e Mobile**
+
+<img width="1375" height="992" alt="Image" src="https://github.com/user-attachments/assets/e9203196-23cc-47f2-85f9-a75f46efcd20" />
+
+## 📄 Licença
+
+Este projeto foi desenvolvido apenas para fins de estudo.
+
+## 🌐 Acesso
+
+Link para abrir na web:
+[cinedestino-next.vercel.app](https://cinedestino-next.vercel.app/)
