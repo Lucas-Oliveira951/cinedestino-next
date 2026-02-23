@@ -29,7 +29,7 @@ Após o cadastro, o sistema pode gerar um token temporário para validar etapas 
 ### 🤳🏽 Foto de Perfil e Armazenamento
 <br>
 <img width="464" height="483" alt="Captura de tela 2026-02-23 111803" src="https://github.com/user-attachments/assets/ae7ee2bb-5668-4617-b1b7-1f9441b24c1a" />
-
+<br>
 A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas a URL pública da imagem é salva no banco de dados (PostgreSQL via Supabase).
 <br>
 <img width="1612" height="582" alt="Captura de tela 2026-02-23 094407" src="https://github.com/user-attachments/assets/ec77ee91-c7da-4186-ac1c-4b5b47967215" />
@@ -91,7 +91,7 @@ O cookie é configurado com as flags:
 - **SameSite: "lax" (proteção contra CSRF)**
 
 <img width="452" height="510" alt="Captura de tela 2026-02-23 103059" src="https://github.com/user-attachments/assets/f2f04c3d-3a45-44c0-979b-a0dbe8dabb77" />
-<br>
+
 Se o e-mail ou senha forem preenchidos incorretamente, o sistema retorna erro de autenticação.
 <br>
 <img width="458" height="521" alt="Captura de tela 2026-02-23 103144" src="https://github.com/user-attachments/assets/e3f5b124-733a-45f5-b798-f2e8d963d957" />
