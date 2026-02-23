@@ -22,15 +22,13 @@ Para garantir a segurança das credenciais:
 
 - **Apenas o hash da senha é salvo no banco de dados**
 
-<img width="357" height="438" alt="Captura de tela 2026-02-22 191653" src="https://github.com/user-attachments/assets/b82a2c67-ba1e-4b6f-a0ff-4f9158ec9eaa" />
-
 Após o cadastro, o sistema pode gerar um token temporário para validar etapas específicas do processo, impedindo acessos indevidos.
 
 ### 🤳🏽 Foto de Perfil e Armazenamento
 
 A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas a URL pública da imagem é salva no banco de dados (PostgreSQL via Supabase).
 
-<img width="1871" height="435" alt="Captura de tela 2026-02-22 192147" src="https://github.com/user-attachments/assets/a28a0e2c-4f54-4372-8d2d-50c655356bdd" />
+<img width="1612" height="582" alt="Captura de tela 2026-02-23 094407" src="https://github.com/user-attachments/assets/ec77ee91-c7da-4186-ac1c-4b5b47967215" />
 
 Isso permite que a imagem seja facilmente recuperada e exibida sempre que o usuário estiver autenticado no sistema.
 
@@ -39,6 +37,8 @@ Caso o usuário não defina uma foto de perfil, o sistema automaticamente define
 ### 🎲 Banco de Dados
 
 O banco de dados do projeto é hospedado no Supabase, utilizando PostgreSQL como base.
+
+<img width="357" height="438" alt="Captura de tela 2026-02-22 191653" src="https://github.com/user-attachments/assets/b82a2c67-ba1e-4b6f-a0ff-4f9158ec9eaa" />
 
 Nele são armazenadas todas as informações essenciais do usuário, incluindo:
 
@@ -55,4 +55,34 @@ Nele são armazenadas todas as informações essenciais do usuário, incluindo:
 - **Token de login**
 
 - **Data de expiração do token**
+
+🔐 Login e Autenticação por Token
+
+No processo de login, o usuário informa seu e-mail e senha.
+
+O sistema:
+
+Busca o usuário no banco de dados
+
+- **Utiliza bcrypt.compare() para validar a senha**
+
+- **Gera um token criptograficamente seguro com crypto.randomBytes(32)**
+
+- **Define validade de 24 horas para o token**
+
+Esse token é:
+
+Salvo no banco de dados (Supabase/PostgreSQL)
+
+Enviado ao navegador por meio de um cookie seguro
+
+O cookie é configurado com as flags:
+
+HttpOnly (impede acesso via JavaScript)
+
+Secure (transmitido apenas em HTTPS em produção)
+
+SameSite: "lax" (proteção contra CSRF)
+
+Se o e-mail ou senha forem preenchidos incorretamente, o sistema retorna erro de autenticação.
 
