@@ -14,6 +14,8 @@ Este projeto implementa um sistema completo de cadastro e login de usuários uti
 
 O sistema permite que novos usuários se cadastrem informando um endereço de e-mail e uma senha.
 
+<img width="459" height="531" alt="Captura de tela 2026-02-23 111444" src="https://github.com/user-attachments/assets/aa5e6842-14de-4a75-92fb-07d6d20c18d1" />
+
 Para garantir a segurança das credenciais:
 
 - **As senhas não são armazenadas em texto puro**
@@ -27,6 +29,9 @@ Após o cadastro, o sistema pode gerar um token temporário para validar etapas 
 ### 🤳🏽 Foto de Perfil e Armazenamento
 
 A foto de perfil enviada no cadastro é armazenada no Supabase Storage, e apenas a URL pública da imagem é salva no banco de dados (PostgreSQL via Supabase).
+
+<img width="464" height="483" alt="Captura de tela 2026-02-23 111803" src="https://github.com/user-attachments/assets/ae7ee2bb-5668-4617-b1b7-1f9441b24c1a" />
+
 
 <img width="1612" height="582" alt="Captura de tela 2026-02-23 094407" src="https://github.com/user-attachments/assets/ec77ee91-c7da-4186-ac1c-4b5b47967215" />
 
@@ -87,6 +92,7 @@ O cookie é configurado com as flags:
 - **SameSite: "lax" (proteção contra CSRF)**
 
 <img width="452" height="510" alt="Captura de tela 2026-02-23 103059" src="https://github.com/user-attachments/assets/f2f04c3d-3a45-44c0-979b-a0dbe8dabb77" />
+
 
 Se o e-mail ou senha forem preenchidos incorretamente, o sistema retorna erro de autenticação.
 
