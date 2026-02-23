@@ -94,8 +94,6 @@ Se o e-mail ou senha forem preenchidos incorretamente, o sistema retorna erro de
 
 ### 🚦 Rate Limit (Proteção contra força bruta)
 
-<img width="450" height="520" alt="Captura de tela 2026-02-23 104055" src="https://github.com/user-attachments/assets/4d54f67d-af1e-418f-af45-8c574aaa070c" />
-
 O sistema possui um rate limit básico por IP, permitindo:
 
 - **5 tentativas de login**
@@ -103,6 +101,8 @@ O sistema possui um rate limit básico por IP, permitindo:
 - **Dentro de uma janela de 1 minuto**
 
 Caso o limite seja excedido, o sistema retorna status 429 (Too Many Requests). Essa proteção reduz riscos de ataques de força bruta.
+
+<img width="450" height="520" alt="Captura de tela 2026-02-23 104055" src="https://github.com/user-attachments/assets/4d54f67d-af1e-418f-af45-8c574aaa070c" />
 
 ### 🔓 Controle de Acesso
 
